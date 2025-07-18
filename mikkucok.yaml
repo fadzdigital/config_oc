@@ -355,12 +355,6 @@ rule-providers:
     path: "./rule_provider/2-speedtest.yaml"
     url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-speedtest.yaml
     interval: 14400
-  RP-Callwa:
-    type: http
-    behavior: classical
-    path: "./rule_provider/2-RP-Callwa.yaml"
-    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-RP-Callwa.yaml
-    interval: 14400
   RP-YT:
     type: http
     behavior: classical
@@ -420,12 +414,6 @@ rule-providers:
     behavior: domain
     path: "./rule_provider/olshop.yaml"
     url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/olshop.yaml
-    interval: 14400
-  wa2:
-    type: http
-    behavior: classical
-    path: "./rule_provider/wa2.yaml"
-    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/wa2.yaml
     interval: 14400
   HoYoverse:
     type: http
@@ -556,9 +544,7 @@ rules:
 
 # Other Services
 - RULE-SET,RP-Speedtest,⚡ Speedtest
-- RULE-SET,RP-Callwa,📞 Voice Call
 - RULE-SET,WhatsApp,📞 Voice Call
-- RULE-SET,wa2,📞 Voice Call
 - RULE-SET,RP-YT,📺 YouTube Only
 
 # Ad Blocking
