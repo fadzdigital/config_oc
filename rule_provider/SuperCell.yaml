@@ -1,0 +1,266 @@
+payload:
+# Behavior: classical
+# > Supercell Games Rules
+# > Updated: 2025 - Includes all Supercell games and services
+
+# === MAIN GAME DOMAINS ===
+# Clash of Clans (CoC)
+  - DOMAIN-SUFFIX,clashofclans.com
+  - DOMAIN-SUFFIX,clashofclans.supercell.com
+  - DOMAIN-SUFFIX,coc.supercell.com
+  - DOMAIN-SUFFIX,game.clashofclans.com
+  - DOMAIN-SUFFIX,api.clashofclans.com
+  - DOMAIN-SUFFIX,event.clashofclans.com
+
+# Clash Royale
+  - DOMAIN-SUFFIX,clashroyale.com
+  - DOMAIN-SUFFIX,clashroyaleapp.com
+  - DOMAIN-SUFFIX,clashroyale.supercell.com
+  - DOMAIN-SUFFIX,royaleapi.com
+  - DOMAIN-SUFFIX,statsroyale.com
+  - DOMAIN-SUFFIX,api.clashroyale.com
+  - DOMAIN-SUFFIX,event.clashroyale.com
+
+# Brawl Stars
+  - DOMAIN-SUFFIX,brawlstars.com
+  - DOMAIN-SUFFIX,brawlstars.supercell.com
+  - DOMAIN-SUFFIX,brawl.supercell.com
+  - DOMAIN-SUFFIX,api.brawlstars.com
+  - DOMAIN-SUFFIX,event.brawlstars.com
+  - DOMAIN-SUFFIX,esports.brawlstars.com
+
+# Hay Day
+  - DOMAIN-SUFFIX,hayday.com
+  - DOMAIN-SUFFIX,hayday.supercell.com
+  - DOMAIN-SUFFIX,hay.supercell.com
+  - DOMAIN-SUFFIX,api.hayday.com
+  - DOMAIN-SUFFIX,event.hayday.com
+
+# Boom Beach
+  - DOMAIN-SUFFIX,boombeach.com
+  - DOMAIN-SUFFIX,boombeach.supercell.com
+  - DOMAIN-SUFFIX,boom.supercell.com
+  - DOMAIN-SUFFIX,api.boombeach.com
+  - DOMAIN-SUFFIX,event.boombeach.com
+
+# Squad Busters
+  - DOMAIN-SUFFIX,squadbusters.com
+  - DOMAIN-SUFFIX,squadbusters.supercell.com
+  - DOMAIN-SUFFIX,squad.supercell.com
+  - DOMAIN-SUFFIX,api.squadbusters.com
+
+# === SUPERCELL MAIN DOMAINS ===
+  - DOMAIN-SUFFIX,supercell.com
+  - DOMAIN-SUFFIX,supercell.net
+  - DOMAIN-SUFFIX,supercell.co
+  - DOMAIN-SUFFIX,supercell.fi
+  - DOMAIN-SUFFIX,supercell.cn
+
+# === GAME SERVICES & APIs ===
+# Authentication & Account
+  - DOMAIN-SUFFIX,id.supercell.com
+  - DOMAIN-SUFFIX,account.supercell.com
+  - DOMAIN-SUFFIX,connect.supercell.com
+  - DOMAIN-SUFFIX,auth.supercell.com
+  - DOMAIN-SUFFIX,login.supercell.com
+  - DOMAIN-SUFFIX,sso.supercell.com
+
+# Game Backend & API
+  - DOMAIN-SUFFIX,api.supercell.com
+  - DOMAIN-SUFFIX,game-api.supercell.com
+  - DOMAIN-SUFFIX,backend.supercell.com
+  - DOMAIN-SUFFIX,gateway.supercell.com
+  - DOMAIN-SUFFIX,services.supercell.com
+
+# Developer API
+  - DOMAIN-SUFFIX,developer.clashroyale.com
+  - DOMAIN-SUFFIX,developer.clashofclans.com
+  - DOMAIN-SUFFIX,developer.brawlstars.com
+  - DOMAIN-SUFFIX,developer.supercell.com
+
+# === CDN & ASSETS ===
+# Global CDN
+  - DOMAIN-SUFFIX,cdn.supercell.com
+  - DOMAIN-SUFFIX,assets.supercell.com
+  - DOMAIN-SUFFIX,static.supercell.com
+  - DOMAIN-SUFFIX,content.supercell.com
+  - DOMAIN-SUFFIX,media.supercell.com
+
+# Game Assets
+  - DOMAIN-SUFFIX,game-assets.supercell.com
+  - DOMAIN-SUFFIX,coc-assets.supercell.com
+  - DOMAIN-SUFFIX,cr-assets.supercell.com
+  - DOMAIN-SUFFIX,bs-assets.supercell.com
+  - DOMAIN-SUFFIX,hayday-assets.supercell.com
+
+# Updates & Patches
+  - DOMAIN-SUFFIX,update.supercell.com
+  - DOMAIN-SUFFIX,patch.supercell.com
+  - DOMAIN-SUFFIX,download.supercell.com
+  - DOMAIN-SUFFIX,updates.clashofclans.com
+  - DOMAIN-SUFFIX,updates.clashroyale.com
+  - DOMAIN-SUFFIX,updates.brawlstars.com
+
+# === ANALYTICS & TRACKING ===
+  - DOMAIN-SUFFIX,analytics.supercell.com
+  - DOMAIN-SUFFIX,metrics.supercell.com
+  - DOMAIN-SUFFIX,telemetry.supercell.com
+  - DOMAIN-SUFFIX,data.supercell.com
+  - DOMAIN-SUFFIX,stats.supercell.com
+  - DOMAIN-SUFFIX,tracking.supercell.com
+
+# === SUPPORT & COMMUNITY ===
+# Support Systems
+  - DOMAIN-SUFFIX,supercell.helpshift.com
+  - DOMAIN-SUFFIX,help.supercell.com
+  - DOMAIN-SUFFIX,support.supercell.com
+  - DOMAIN-SUFFIX,customer.supercell.com
+  - DOMAIN-SUFFIX,helpshift.com
+
+# Community & Social
+  - DOMAIN-SUFFIX,community.supercell.com
+  - DOMAIN-SUFFIX,forum.supercell.com
+  - DOMAIN-SUFFIX,social.supercell.com
+  - DOMAIN-SUFFIX,creators.supercell.com
+
+# === ESPORTS & COMPETITIVE ===
+  - DOMAIN-SUFFIX,esports.supercell.com
+  - DOMAIN-SUFFIX,competitive.supercell.com
+  - DOMAIN-SUFFIX,tournament.supercell.com
+  - DOMAIN-SUFFIX,championship.supercell.com
+  - DOMAIN-SUFFIX,pro.supercell.com
+
+# Clash Royale League
+  - DOMAIN-SUFFIX,crl.supercell.com
+  - DOMAIN-SUFFIX,clashroyaleleague.com
+  - DOMAIN-SUFFIX,crl-tournament.com
+
+# Clash of Clans World Championship
+  - DOMAIN-SUFFIX,cocworldchampionship.com
+  - DOMAIN-SUFFIX,clashworlds.com
+
+# Brawl Stars Championship
+  - DOMAIN-SUFFIX,brawlstarsesports.com
+  - DOMAIN-SUFFIX,bsc.supercell.com
+
+# === PAYMENT & BILLING ===
+  - DOMAIN-SUFFIX,payment.supercell.com
+  - DOMAIN-SUFFIX,billing.supercell.com
+  - DOMAIN-SUFFIX,store.supercell.com
+  - DOMAIN-SUFFIX,shop.supercell.com
+  - DOMAIN-SUFFIX,purchase.supercell.com
+
+# === REGIONAL DOMAINS ===
+# Asia Pacific
+  - DOMAIN-SUFFIX,asia.supercell.com
+  - DOMAIN-SUFFIX,ap.supercell.com
+  - DOMAIN-SUFFIX,sea.supercell.com
+
+# Europe
+  - DOMAIN-SUFFIX,eu.supercell.com
+  - DOMAIN-SUFFIX,europe.supercell.com
+
+# North America
+  - DOMAIN-SUFFIX,na.supercell.com
+  - DOMAIN-SUFFIX,us.supercell.com
+
+# China (Special)
+  - DOMAIN-SUFFIX,china.supercell.com
+  - DOMAIN-SUFFIX,cn.supercell.com
+  - DOMAIN-SUFFIX,tencent.supercell.com
+
+# === MARKETING & EVENTS ===
+  - DOMAIN-SUFFIX,events.supercell.com
+  - DOMAIN-SUFFIX,news.supercell.com
+  - DOMAIN-SUFFIX,blog.supercell.com
+  - DOMAIN-SUFFIX,announce.supercell.com
+  - DOMAIN-SUFFIX,promo.supercell.com
+
+# === MOBILE & APP SPECIFIC ===
+  - DOMAIN-SUFFIX,mobile.supercell.com
+  - DOMAIN-SUFFIX,app.supercell.com
+  - DOMAIN-SUFFIX,ios.supercell.com
+  - DOMAIN-SUFFIX,android.supercell.com
+
+# === THIRD PARTY INTEGRATIONS ===
+# Game Center & Social
+  - DOMAIN-SUFFIX,gamecenter.supercell.com
+  - DOMAIN-SUFFIX,social-login.supercell.com
+  - DOMAIN-SUFFIX,facebook.supercell.com
+  - DOMAIN-SUFFIX,google.supercell.com
+
+# Analytics Partners
+  - DOMAIN-SUFFIX,gameanalytics.supercell.com
+  - DOMAIN-SUFFIX,amplitude.supercell.com
+
+# === LEGACY & BETA DOMAINS ===
+  - DOMAIN-SUFFIX,beta.supercell.com
+  - DOMAIN-SUFFIX,test.supercell.com
+  - DOMAIN-SUFFIX,dev.supercell.com
+  - DOMAIN-SUFFIX,staging.supercell.com
+  - DOMAIN-SUFFIX,preview.supercell.com
+
+# === CONTENT CREATORS ===
+  - DOMAIN-SUFFIX,creator.supercell.com
+  - DOMAIN-SUFFIX,influencer.supercell.com
+  - DOMAIN-SUFFIX,partner.supercell.com
+  - DOMAIN-SUFFIX,program.supercell.com
+
+# === WEBVIEW & EMBEDDED ===
+  - DOMAIN-SUFFIX,webview.supercell.com
+  - DOMAIN-SUFFIX,embedded.supercell.com
+  - DOMAIN-SUFFIX,iframe.supercell.com
+  - DOMAIN-SUFFIX,widget.supercell.com
+
+# === SECURITY & ANTI-CHEAT ===
+  - DOMAIN-SUFFIX,security.supercell.com
+  - DOMAIN-SUFFIX,anticheat.supercell.com
+  - DOMAIN-SUFFIX,fairplay.supercell.com
+  - DOMAIN-SUFFIX,protection.supercell.com
+
+# === KEYWORDS ===
+  - DOMAIN-KEYWORD,supercell
+  - DOMAIN-KEYWORD,clashofclans
+  - DOMAIN-KEYWORD,clashroyale
+  - DOMAIN-KEYWORD,brawlstars
+  - DOMAIN-KEYWORD,hayday
+  - DOMAIN-KEYWORD,boombeach
+  - DOMAIN-KEYWORD,squadbusters
+  - DOMAIN-KEYWORD,clashworld
+  - DOMAIN-KEYWORD,royaleapi
+  - DOMAIN-KEYWORD,helpshift
+
+# === SPECIFIC GAME SUBDOMAINS ===
+# Clash of Clans War Leagues
+  - DOMAIN-SUFFIX,cwl.clashofclans.com
+  - DOMAIN-SUFFIX,warleague.clashofclans.com
+
+# Clash Royale Seasons
+  - DOMAIN-SUFFIX,season.clashroyale.com
+  - DOMAIN-SUFFIX,battle.clashroyale.com
+
+# Brawl Stars Modes
+  - DOMAIN-SUFFIX,championship.brawlstars.com
+  - DOMAIN-SUFFIX,powerleague.brawlstars.com
+
+# === INFRASTRUCTURE ===
+  - DOMAIN-SUFFIX,load.supercell.com
+  - DOMAIN-SUFFIX,balance.supercell.com
+  - DOMAIN-SUFFIX,monitor.supercell.com
+  - DOMAIN-SUFFIX,health.supercell.com
+
+# === EXTERNAL PARTNERS ===
+# Stats & Analytics Sites
+  - DOMAIN-SUFFIX,royaleapi.com
+  - DOMAIN-SUFFIX,statsroyale.com
+  - DOMAIN-SUFFIX,deckshop.pro
+  - DOMAIN-SUFFIX,coctracker.com
+  - DOMAIN-SUFFIX,clashchamps.com
+  - DOMAIN-SUFFIX,clashtrack.com
+
+# === ADDITIONAL SERVICES ===
+  - DOMAIN-SUFFIX,mail.supercell.com
+  - DOMAIN-SUFFIX,newsletter.supercell.com
+  - DOMAIN-SUFFIX,push.supercell.com
+  - DOMAIN-SUFFIX,notification.supercell.com
+  - DOMAIN-SUFFIX,alerts.supercell.com

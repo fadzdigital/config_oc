@@ -343,7 +343,7 @@ rule-providers:
     type: http
     behavior: classical
     path: "./rule_provider/2-AdguardDNS.yaml"
-    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/AdguardDNS.yaml
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-AdguardDNS.yaml
     interval: 14400
   oisd_small:
     type: http
@@ -368,6 +368,36 @@ rule-providers:
     behavior: domain
     path: "./rule_provider/porns.yaml"
     url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/porns.yaml
+    interval: 14400
+  WhatsApp:
+    type: http
+    behavior: domain
+    path: "./rule_provider/whatsapp.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/whatsapp.yaml
+    interval: 14400
+  HoYoverse:
+    type: http
+    behavior: classical
+    path: "./rule_provider/HoYoverse.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/HoYoverse.yaml
+    interval: 14400
+  SuperCell:
+    type: http
+    behavior: classical
+    path: "./rule_provider/SuperCell.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/SuperCell.yaml
+    interval: 14400
+  Apexs:
+    type: http
+    behavior: classical
+    path: "./rule_provider/apexs.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/apexs.yaml
+    interval: 14400
+  NgepNgep:
+    type: http
+    behavior: classical
+    path: "./rule_provider/ngepngep.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/ngepngep.yaml
     interval: 14400
   abpindo:
     type: http
@@ -421,10 +451,16 @@ rules:
 # Gaming
 - RULE-SET,RP-Gaming,🕹️ Game Download
 - RULE-SET,RP-Gamingport,🎮 Gaming
+- RULE-SET,HoYoverse,🎮 Gaming
+- RULE-SET,SuperCell,🎮 Gaming
+- RULE-SET,Apexs,🎮 Gaming
+- RULE-SET,SuperCell,🎮 Gaming
+- RULE-SET,NgepNgep,🎮 Gaming
 
 # Other Services
 - RULE-SET,RP-Speedtest,⚡ Speedtest
 - RULE-SET,RP-Callwa,📞 Voice Call
+- RULE-SET,WhatsApp,📞 Voice Call
 - RULE-SET,RP-YT,📺 YouTube Only
 
 # Ad Blocking

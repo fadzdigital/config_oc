@@ -1,0 +1,253 @@
+payload:
+# Behavior: classical
+# > Free Fire Rules
+# > Updated: 2025 - Free Fire game only
+
+# === MAIN FREE FIRE DOMAINS ===
+# Global Garena Domains
+  - DOMAIN-SUFFIX,garena.com
+  - DOMAIN-SUFFIX,garena.co.id
+  - DOMAIN-SUFFIX,garena.sg
+  - DOMAIN-SUFFIX,garena.my
+  - DOMAIN-SUFFIX,garena.ph
+  - DOMAIN-SUFFIX,garena.th
+  - DOMAIN-SUFFIX,garena.vn
+  - DOMAIN-SUFFIX,garena.tw
+
+# Free Fire Specific Domains
+  - DOMAIN-SUFFIX,ff.garena.com
+  - DOMAIN-SUFFIX,freefire.garena.com
+  - DOMAIN-SUFFIX,booyah.live
+  - DOMAIN-SUFFIX,booyah.garena.com
+
+# === FREE FIRE GAME SERVICES ===
+# Game Backend & API
+  - DOMAIN-SUFFIX,api.garena.com
+  - DOMAIN-SUFFIX,api.ff.garena.com
+  - DOMAIN-SUFFIX,backend.garena.com
+  - DOMAIN-SUFFIX,game-api.garena.com
+  - DOMAIN-SUFFIX,service.garena.com
+
+# Authentication & Account
+  - DOMAIN-SUFFIX,auth.garena.com
+  - DOMAIN-SUFFIX,account.garena.com
+  - DOMAIN-SUFFIX,login.garena.com
+  - DOMAIN-SUFFIX,sso.garena.com
+  - DOMAIN-SUFFIX,user.garena.com
+  - DOMAIN-SUFFIX,profile.garena.com
+
+# Game Server Infrastructure
+  - DOMAIN-SUFFIX,server.garena.com
+  - DOMAIN-SUFFIX,gateway.garena.com
+  - DOMAIN-SUFFIX,lobby.garena.com
+  - DOMAIN-SUFFIX,match.garena.com
+  - DOMAIN-SUFFIX,game.garena.com
+
+# === FREE FIRE DOWNLOADS & UPDATES ===
+# Game Updates & Patches
+  - DOMAIN-SUFFIX,download.garena.com
+  - DOMAIN-SUFFIX,patch.garena.com
+  - DOMAIN-SUFFIX,update.garena.com
+  - DOMAIN-SUFFIX,cdn.garena.com
+  - DOMAIN-SUFFIX,assets.garena.com
+  - DOMAIN-SUFFIX,content.garena.com
+
+# APK & Installation Files
+  - DOMAIN-SUFFIX,apk.garena.com
+  - DOMAIN-SUFFIX,installer.garena.com
+  - DOMAIN-SUFFIX,file.garena.com
+
+# === FREE FIRE VOICE & COMMUNICATION ===
+# Voice Chat Services
+  - DOMAIN-SUFFIX,voice.garena.com
+  - DOMAIN-SUFFIX,voice-sg.garena.com
+  - DOMAIN-SUFFIX,voice-id.garena.com
+  - DOMAIN-SUFFIX,voice-th.garena.com
+  - DOMAIN-SUFFIX,voice-my.garena.com
+  - DOMAIN-SUFFIX,voice-ph.garena.com
+  - DOMAIN-SUFFIX,voice-vn.garena.com
+
+# Chat & Messaging
+  - DOMAIN-SUFFIX,chat.garena.com
+  - DOMAIN-SUFFIX,message.garena.com
+  - DOMAIN-SUFFIX,communication.garena.com
+
+# === FREE FIRE PAYMENT & STORE ===
+# In-Game Store
+  - DOMAIN-SUFFIX,shop.garena.com
+  - DOMAIN-SUFFIX,store.garena.com
+  - DOMAIN-SUFFIX,mall.garena.com
+  - DOMAIN-SUFFIX,topup.garena.com
+
+# Payment Services
+  - DOMAIN-SUFFIX,pay.garena.com
+  - DOMAIN-SUFFIX,payment.garena.com
+  - DOMAIN-SUFFIX,billing.garena.com
+  - DOMAIN-SUFFIX,purchase.garena.com
+
+# Diamonds & Currency
+  - DOMAIN-SUFFIX,diamond.garena.com
+  - DOMAIN-SUFFIX,currency.garena.com
+  - DOMAIN-SUFFIX,wallet.garena.com
+
+# === FREE FIRE ANALYTICS & TRACKING ===
+# Game Analytics
+  - DOMAIN-SUFFIX,analytics.garena.com
+  - DOMAIN-SUFFIX,stats.garena.com
+  - DOMAIN-SUFFIX,metrics.garena.com
+  - DOMAIN-SUFFIX,telemetry.garena.com
+  - DOMAIN-SUFFIX,data.garena.com
+
+# Performance Monitoring
+  - DOMAIN-SUFFIX,monitor.garena.com
+  - DOMAIN-SUFFIX,track.garena.com
+  - DOMAIN-SUFFIX,log.garena.com
+
+# === FREE FIRE ESPORTS & COMPETITIVE ===
+# Free Fire Esports
+  - DOMAIN-SUFFIX,esports.garena.com
+  - DOMAIN-SUFFIX,ffesports.garena.com
+  - DOMAIN-SUFFIX,tournament.garena.com
+  - DOMAIN-SUFFIX,competitive.garena.com
+
+# Free Fire World Series (FFWS)
+  - DOMAIN-SUFFIX,ffws.garena.com
+  - DOMAIN-SUFFIX,worldseries.garena.com
+  - DOMAIN-SUFFIX,ffworldseries.com
+
+# Ranked & Leagues
+  - DOMAIN-SUFFIX,ranked.garena.com
+  - DOMAIN-SUFFIX,league.garena.com
+  - DOMAIN-SUFFIX,leaderboard.garena.com
+
+# === FREE FIRE STREAMING & CONTENT ===
+# Booyah Platform
+  - DOMAIN-SUFFIX,booyah.live
+  - DOMAIN-SUFFIX,booyah.garena.com
+  - DOMAIN-SUFFIX,stream.garena.com
+  - DOMAIN-SUFFIX,live.garena.com
+
+# Content Creator Support
+  - DOMAIN-SUFFIX,creator.garena.com
+  - DOMAIN-SUFFIX,partner.garena.com
+  - DOMAIN-SUFFIX,influencer.garena.com
+
+# === FREE FIRE REGIONAL SERVICES ===
+# Southeast Asia
+  - DOMAIN-SUFFIX,sea.garena.com
+  - DOMAIN-SUFFIX,sg.garena.com
+  - DOMAIN-SUFFIX,id.garena.com
+  - DOMAIN-SUFFIX,my.garena.com
+  - DOMAIN-SUFFIX,th.garena.com
+  - DOMAIN-SUFFIX,ph.garena.com
+  - DOMAIN-SUFFIX,vn.garena.com
+
+# Regional APIs
+  - DOMAIN-SUFFIX,api-sea.garena.com
+  - DOMAIN-SUFFIX,api-sg.garena.com
+  - DOMAIN-SUFFIX,api-id.garena.com
+
+# === FREE FIRE SOCIAL & COMMUNITY ===
+# Community Features
+  - DOMAIN-SUFFIX,community.garena.com
+  - DOMAIN-SUFFIX,forum.garena.com
+  - DOMAIN-SUFFIX,social.garena.com
+  - DOMAIN-SUFFIX,guild.garena.com
+
+# Events & Activities
+  - DOMAIN-SUFFIX,event.garena.com
+  - DOMAIN-SUFFIX,activity.garena.com
+  - DOMAIN-SUFFIX,campaign.garena.com
+
+# === FREE FIRE SUPPORT & HELP ===
+# Customer Support
+  - DOMAIN-SUFFIX,support.garena.com
+  - DOMAIN-SUFFIX,help.garena.com
+  - DOMAIN-SUFFIX,customer.garena.com
+  - DOMAIN-SUFFIX,service.garena.com
+
+# FAQ & Documentation
+  - DOMAIN-SUFFIX,faq.garena.com
+  - DOMAIN-SUFFIX,guide.garena.com
+  - DOMAIN-SUFFIX,manual.garena.com
+
+# === FREE FIRE CDN & INFRASTRUCTURE ===
+# Content Delivery Network
+  - DOMAIN-SUFFIX,cdn-sea.garena.com
+  - DOMAIN-SUFFIX,static.garena.com
+  - DOMAIN-SUFFIX,media.garena.com
+  - DOMAIN-SUFFIX,resource.garena.com
+
+# Load Balancing
+  - DOMAIN-SUFFIX,load.garena.com
+  - DOMAIN-SUFFIX,balance.garena.com
+  - DOMAIN-SUFFIX,edge.garena.com
+
+# === FREE FIRE MOBILE PLATFORM ===
+# Android Services
+  - DOMAIN-SUFFIX,android.garena.com
+  - DOMAIN-SUFFIX,googleplay.garena.com
+
+# iOS Services
+  - DOMAIN-SUFFIX,ios.garena.com
+  - DOMAIN-SUFFIX,appstore.garena.com
+
+# === FREE FIRE BETA & TESTING ===
+# Beta Testing
+  - DOMAIN-SUFFIX,beta.garena.com
+  - DOMAIN-SUFFIX,test.garena.com
+  - DOMAIN-SUFFIX,dev.garena.com
+  - DOMAIN-SUFFIX,staging.garena.com
+
+# OB (Open Beta) Servers
+  - DOMAIN-SUFFIX,ob.garena.com
+  - DOMAIN-SUFFIX,advance.garena.com
+
+# === FREE FIRE SECURITY & ANTI-CHEAT ===
+# Security Services
+  - DOMAIN-SUFFIX,security.garena.com
+  - DOMAIN-SUFFIX,anticheat.garena.com
+  - DOMAIN-SUFFIX,fairplay.garena.com
+  - DOMAIN-SUFFIX,protection.garena.com
+
+# Report System
+  - DOMAIN-SUFFIX,report.garena.com
+  - DOMAIN-SUFFIX,violation.garena.com
+
+# === FREE FIRE NEWS & UPDATES ===
+# Official News
+  - DOMAIN-SUFFIX,news.garena.com
+  - DOMAIN-SUFFIX,blog.garena.com
+  - DOMAIN-SUFFIX,announcement.garena.com
+  - DOMAIN-SUFFIX,notice.garena.com
+
+# === FREE FIRE MARKETING & PROMOTION ===
+# Marketing Campaigns
+  - DOMAIN-SUFFIX,promo.garena.com
+  - DOMAIN-SUFFIX,promotion.garena.com
+  - DOMAIN-SUFFIX,campaign.garena.com
+  - DOMAIN-SUFFIX,ads.garena.com
+
+# === FREE FIRE CROSS-PLATFORM ===
+# Cross-Platform Services
+  - DOMAIN-SUFFIX,crossplatform.garena.com
+  - DOMAIN-SUFFIX,sync.garena.com
+  - DOMAIN-SUFFIX,cloud.garena.com
+
+# === KEYWORDS ===
+  - DOMAIN-KEYWORD,freefire
+  - DOMAIN-KEYWORD,garena
+  - DOMAIN-KEYWORD,booyah
+  - DOMAIN-KEYWORD,ffws
+  - DOMAIN-KEYWORD,ffesports
+
+# === FREE FIRE EXTERNAL PARTNERS ===
+# Third-Party Services
+  - DOMAIN-SUFFIX,freefire-stats.com
+  - DOMAIN-SUFFIX,ffstats.com
+  - DOMAIN-SUFFIX,freefire-wiki.com
+
+# === FREE FIRE LEGACY DOMAINS ===
+  - DOMAIN-SUFFIX,freefire.garena.co.id
+  - DOMAIN-SUFFIX,freefire.garena.sg
+  - DOMAIN-SUFFIX,freefire.garena.my

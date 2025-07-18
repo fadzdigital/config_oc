@@ -1,0 +1,232 @@
+payload:
+# Behavior: classical
+# > Apex Legends Rules (Mobile & PC)
+# > Updated: 2025 -Apex Legends game only
+
+# === APEX LEGENDS MOBILE (MGAPEX) ===
+# Main Mobile Domains 
+  - DOMAIN-SUFFIX,mgapex.com
+  - DOMAIN-SUFFIX,devmgapex.com
+  - DOMAIN-SUFFIX,testmgapex.com
+  - DOMAIN-SUFFIX,betamgapex.com
+
+# Mobile Game Services
+  - DOMAIN-SUFFIX,tdm.mgapex.com
+  - DOMAIN-SUFFIX,lobby.mgapex.com
+  - DOMAIN-SUFFIX,match.mgapex.com
+  - DOMAIN-SUFFIX,game.mgapex.com
+  - DOMAIN-SUFFIX,server.mgapex.com
+  - DOMAIN-SUFFIX,gateway.mgapex.com
+
+# Mobile Downloads & Updates 
+  - DOMAIN-SUFFIX,download.mgapex.com
+  - DOMAIN-SUFFIX,download.2.707369824.dmp.mgapex.com
+  - DOMAIN-SUFFIX,update.mgapex.com
+  - DOMAIN-SUFFIX,patch.mgapex.com
+  - DOMAIN-SUFFIX,cdn.mgapex.com
+  - DOMAIN-SUFFIX,assets.mgapex.com
+  - DOMAIN-SUFFIX,content.mgapex.com
+
+# Mobile Voice & Communication 
+  - DOMAIN-SUFFIX,voice.mgapex.com
+  - DOMAIN-SUFFIX,voice-sg.mgapex.com
+  - DOMAIN-SUFFIX,voice-na.mgapex.com
+  - DOMAIN-SUFFIX,voice-eu.mgapex.com
+  - DOMAIN-SUFFIX,voice-jp.mgapex.com
+  - DOMAIN-SUFFIX,voice-kr.mgapex.com
+  - DOMAIN-SUFFIX,chat.mgapex.com
+
+# Mobile Technical Services 
+  - DOMAIN-SUFFIX,bugly.mgapex.com
+  - DOMAIN-SUFFIX,bugly-android.mgapex.com
+  - DOMAIN-SUFFIX,bugly-ios.mgapex.com
+  - DOMAIN-SUFFIX,crash.mgapex.com
+  - DOMAIN-SUFFIX,analytics.mgapex.com
+  - DOMAIN-SUFFIX,telemetry.mgapex.com
+
+# Mobile Performance & Optimization 
+  - DOMAIN-SUFFIX,itop.mgapex.com
+  - DOMAIN-SUFFIX,tgpa.mgapex.com
+  - DOMAIN-SUFFIX,perf.mgapex.com
+  - DOMAIN-SUFFIX,optimize.mgapex.com
+  - DOMAIN-SUFFIX,fps.mgapex.com
+
+# Mobile Cloud & Storage 
+  - DOMAIN-SUFFIX,cloudctrl.mgapex.com
+  - DOMAIN-SUFFIX,cloud.mgapex.com
+  - DOMAIN-SUFFIX,storage.mgapex.com
+  - DOMAIN-SUFFIX,file.mgapex.com
+  - DOMAIN-SUFFIX,data.mgapex.com
+
+# Mobile Payment & Store 
+  - DOMAIN-SUFFIX,pay.mgapex.com
+  - DOMAIN-SUFFIX,payment.mgapex.com
+  - DOMAIN-SUFFIX,store.mgapex.com
+  - DOMAIN-SUFFIX,shop.mgapex.com
+  - DOMAIN-SUFFIX,billing.mgapex.com
+
+# Mobile Regional Services 
+  - DOMAIN-SUFFIX,ire.csoversea.mgapex.com
+  - DOMAIN-SUFFIX,sea.mgapex.com
+  - DOMAIN-SUFFIX,asia.mgapex.com
+  - DOMAIN-SUFFIX,na.mgapex.com
+  - DOMAIN-SUFFIX,eu.mgapex.com
+  - DOMAIN-SUFFIX,global.mgapex.com
+
+# Mobile Authentication
+  - DOMAIN-SUFFIX,auth.mgapex.com
+  - DOMAIN-SUFFIX,login.mgapex.com
+  - DOMAIN-SUFFIX,account.mgapex.com
+  - DOMAIN-SUFFIX,user.mgapex.com
+  - DOMAIN-SUFFIX,profile.mgapex.com
+
+# Mobile API & Backend
+  - DOMAIN-SUFFIX,api.mgapex.com
+  - DOMAIN-SUFFIX,backend.mgapex.com
+  - DOMAIN-SUFFIX,service.mgapex.com
+  - DOMAIN-SUFFIX,endpoint.mgapex.com
+
+# === APEX LEGENDS PC/CONSOLE ===
+# Main PC Game Domains
+  - DOMAIN-SUFFIX,apexlegends.com
+  - DOMAIN-SUFFIX,playapex.com
+  - DOMAIN-SUFFIX,playapexlegends.com
+
+# Respawn Entertainment (Apex Developer)
+  - DOMAIN-SUFFIX,respawn.com
+  - DOMAIN-SUFFIX,playrespawn.com
+  - DOMAIN-SUFFIX,respawnentertainment.com
+
+# EA Services (Apex Publisher)
+  - DOMAIN-SUFFIX,ea.com
+  - DOMAIN-SUFFIX,origin.com
+  - DOMAIN-SUFFIX,eaplay.com
+  - DOMAIN-SUFFIX,accounts.ea.com
+  - DOMAIN-SUFFIX,api.ea.com
+  - DOMAIN-SUFFIX,gateway.ea.com
+
+# PC Game Updates & Downloads
+  - DOMAIN-SUFFIX,download.ea.com
+  - DOMAIN-SUFFIX,lvlt.ea.com
+  - DOMAIN-SUFFIX,cdn.ea.com
+  - DOMAIN-SUFFIX,eaassets.ea.com
+  - DOMAIN-SUFFIX,origin-a.akamaihd.net
+  - DOMAIN-SUFFIX,originassets.akamaized.net
+
+# Steam (Alternative PC Platform)
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+
+# === APEX ANTI-CHEAT & SECURITY ===
+# Easy Anti-Cheat (PC)
+  - DOMAIN-SUFFIX,easyanticheat.com
+  - DOMAIN-SUFFIX,eac-cdn.com
+  - DOMAIN-SUFFIX,easy.ac
+  - DOMAIN-SUFFIX,easyanticheat.net
+
+# Mobile Security
+  - DOMAIN-SUFFIX,security.mgapex.com
+  - DOMAIN-SUFFIX,anticheat.mgapex.com
+  - DOMAIN-SUFFIX,fairplay.mgapex.com
+
+# === APEX ESPORTS & COMPETITIVE ===
+# ALGS (Apex Legends Global Series)
+  - DOMAIN-SUFFIX,algs.gg
+  - DOMAIN-SUFFIX,apex-esports.com
+  - DOMAIN-SUFFIX,apexlegends-esports.com
+
+# Mobile Competitive
+  - DOMAIN-SUFFIX,tournament.mgapex.com
+  - DOMAIN-SUFFIX,competitive.mgapex.com
+  - DOMAIN-SUFFIX,ranked.mgapex.com
+  - DOMAIN-SUFFIX,leaderboard.mgapex.com
+
+# === APEX COMMUNITY & SOCIAL ===
+  - DOMAIN-SUFFIX,community.mgapex.com
+  - DOMAIN-SUFFIX,forum.mgapex.com
+  - DOMAIN-SUFFIX,social.mgapex.com
+
+# === APEX ANALYTICS & TRACKING ===
+# Mobile Analytics
+  - DOMAIN-SUFFIX,stats.mgapex.com
+  - DOMAIN-SUFFIX,metrics.mgapex.com
+  - DOMAIN-SUFFIX,tracking.mgapex.com
+  - DOMAIN-SUFFIX,logger.mgapex.com
+
+# PC Analytics
+  - DOMAIN-SUFFIX,pin-river.data.ea.com
+  - DOMAIN-SUFFIX,telemetry.ea.com
+
+# === APEX ADVERTISING & MARKETING ===
+  - DOMAIN-SUFFIX,apex.go.sonobi.com
+  - DOMAIN-SUFFIX,ads.mgapex.com
+  - DOMAIN-SUFFIX,marketing.mgapex.com
+  - DOMAIN-SUFFIX,promo.mgapex.com
+
+# === APEX SUPPORT & HELP ===
+  - DOMAIN-SUFFIX,help.ea.com
+  - DOMAIN-SUFFIX,support.mgapex.com
+  - DOMAIN-SUFFIX,customer.mgapex.com
+  - DOMAIN-SUFFIX,faq.mgapex.com
+
+# Load Balancing & Performance
+  - DOMAIN-SUFFIX,balance.mgapex.com
+  - DOMAIN-SUFFIX,load.mgapex.com
+  - DOMAIN-SUFFIX,edge.mgapex.com
+
+# === APEX MOBILE PLATFORM SPECIFIC ===
+# Android Specific
+  - DOMAIN-SUFFIX,android.mgapex.com
+  - DOMAIN-SUFFIX,googleplay.mgapex.com
+
+# iOS Specific
+  - DOMAIN-SUFFIX,ios.mgapex.com
+  - DOMAIN-SUFFIX,appstore.mgapex.com
+
+# === APEX BETA & TESTING ===
+  - DOMAIN-SUFFIX,beta.mgapex.com
+  - DOMAIN-SUFFIX,test.mgapex.com
+  - DOMAIN-SUFFIX,dev.mgapex.com
+  - DOMAIN-SUFFIX,staging.mgapex.com
+  - DOMAIN-SUFFIX,qa.mgapex.com
+
+# === APEX SEASON & EVENTS ===
+  - DOMAIN-SUFFIX,season.mgapex.com
+  - DOMAIN-SUFFIX,event.mgapex.com
+  - DOMAIN-SUFFIX,battlepass.mgapex.com
+  - DOMAIN-SUFFIX,rewards.mgapex.com
+
+# === APEX CROSS-PLATFORM SERVICES ===
+  - DOMAIN-SUFFIX,crossplay.mgapex.com
+  - DOMAIN-SUFFIX,crossplatform.mgapex.com
+  - DOMAIN-SUFFIX,sync.mgapex.com
+
+# === APEX REGIONAL SERVERS ===
+# Asia Pacific
+  - DOMAIN-SUFFIX,ap-southeast.mgapex.com
+  - DOMAIN-SUFFIX,singapore.mgapex.com
+  - DOMAIN-SUFFIX,tokyo.mgapex.com
+  - DOMAIN-SUFFIX,seoul.mgapex.com
+
+# North America
+  - DOMAIN-SUFFIX,oregon.mgapex.com
+  - DOMAIN-SUFFIX,virginia.mgapex.com
+  - DOMAIN-SUFFIX,canada.mgapex.com
+
+# Europe
+  - DOMAIN-SUFFIX,frankfurt.mgapex.com
+  - DOMAIN-SUFFIX,london.mgapex.com
+  - DOMAIN-SUFFIX,paris.mgapex.com
+
+# === KEYWORDS ===
+  - DOMAIN-KEYWORD,apex
+  - DOMAIN-KEYWORD,apexlegends
+  - DOMAIN-KEYWORD,mgapex
+  - DOMAIN-KEYWORD,devmgapex
+  - DOMAIN-KEYWORD,algs
+
+# === APEX LEGACY & ALTERNATIVE DOMAINS ===
+  - DOMAIN-SUFFIX,playapexmobile.com
+  - DOMAIN-SUFFIX,apexmobile.com
