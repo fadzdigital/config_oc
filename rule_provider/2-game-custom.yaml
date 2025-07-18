@@ -1,0 +1,9 @@
+payload:
+# > Supercell
+- DOMAIN-SUFFIX,supercell.com
+- DOMAIN-SUFFIX,supercell.helpshift.com
+- DOMAIN-SUFFIX,supercell.net
+- DOMAIN-SUFFIX,supercellcommunity.cn
+- DOMAIN-SUFFIX,supercellsupport.cn
+# > CoC
+- DOMAIN-SUFFIX,clashofclans.com
