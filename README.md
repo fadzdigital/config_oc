@@ -1,5 +1,5 @@
 # 📚 Dokumentasi Lengkap Konfigurasi Clash VPN
-*Panduan Ultimate untuk Pemula hingga Advanced User*
+*Panduan untuk Pemula hingga Advanced User*
 
 ---
 
@@ -45,7 +45,7 @@ Port Configuration:
 
 ### **📱 Social Media**
 ```yaml
-Target: Facebook, Instagram, Twitter, TikTok, WhatsApp Web
+Target: Facebook, Instagram, Twitter
 Default: VPN Server (Best-Ping)
 ```
 
@@ -57,13 +57,13 @@ Default: VPN Server (Best-Ping)
 **💡 Kapan Ganti Mode:**
 - **Best-Ping:** Browsing normal, stories, chat
 - **Load-Balance:** Upload video, multiple account
-- **Fallback:** Koneksi tidak stabil, video call penting
+- **Fallback:** Jika Mempunyai Banyak Account Vpn
 
 ---
 
 ### **🎬 Streaming**
 ```yaml
-Target: YouTube, Netflix, Spotify, Disney+, Prime Video
+Target: Netflix, Spotify, Disney+, Prime Video
 Default: VPN Server (Best-Ping)
 ```
 
@@ -81,7 +81,7 @@ Default: VPN Server (Best-Ping)
 
 ### **🇮🇩 Indonesia Traffic**
 ```yaml
-Target: Vidio.com, iflix, RCTI+, Kompas.com, Detik.com
+Target: Netflix, Disney, Mola Tv, Spotify, Vidio Dll
 Default: VPN Server (Best-Ping)
 ```
 
@@ -90,14 +90,14 @@ Default: VPN Server (Best-Ping)
 - Bypass throttling ISP lokal
 - Stabilitas koneksi streaming
 
-**💡 Alternative:** Bisa diganti ke DIRECT jika mau hemat quota
+**💡 Alternative:** Bisa diganti ke Load-Balance
 
 ---
 
 ### **💳 Bank & Shopping** ⚡ (CRITICAL)
 ```yaml
-Target: BCA, Mandiri, BRI, BNI, OVO, GoPay, DANA, Tokopedia, Shopee
-Default: DIRECT (WAJIB untuk keamanan)
+Target: BCA, Mandiri, BRI, BNI, OVO, GoPay, DANA Dll
+Default: DIRECT (Untuk Keamanan)
 ```
 
 **🔒 Kenapa DIRECT Wajib:**
@@ -147,13 +147,12 @@ Default: DIRECT (Ping terendah)
 ### **🕹️ Game Download**
 ```yaml
 Target: Steam, Epic Games, Google Play Games, App Store
-Default: DIRECT (Speed maksimal)
+Default: Best-Ping (Speed maksimal)
 ```
 
-**📥 Kenapa DIRECT:**
-- Download 5GB game = 30 menit vs 2 jam via VPN
+**📥 Kenapa Best-Ping:**
 - Resume download lebih stabil
-- No quota VPN terbuang untuk file besar
+- Memakai Vpn (non Direct)
 
 **🔄 Kapan Pakai VPN:**
 - Game banned di Indonesia
