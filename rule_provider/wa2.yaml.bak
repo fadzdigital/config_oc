@@ -240,10 +240,26 @@ payload:
   - DOMAIN-KEYWORD,yowhatsapp
   - DOMAIN-KEYWORD,waba
 
+# Additional WhatsApp Ports
+  - DST-PORT,80
+  - DST-PORT,443
+  - DST-PORT,5228
+  - DST-PORT,5229
+  - DST-PORT,5230
+  - DST-PORT,19302
+  - DST-PORT,19303
+  - DST-PORT,19304
+  - DST-PORT,19305
+
 # WhatsApp Voice/Video Ports
   - DST-PORT,40000-65535,udp
   - DST-PORT,3478,udp
   - DST-PORT,5349,udp
+
+# WhatsApp Business Ports
+  - DST-PORT,8080
+  - DST-PORT,8443
+  - DST-PORT,9876
 
 # === WHATSAPP FILE SHARING ===
 # File Upload/Download
