@@ -5,10 +5,10 @@
 
 <!-- Badges dengan efek visual -->
 <p align="center">
-  <img src="https://img.shields.io/badge/⚡_OpenClash-Konfigurasi-FF6B6B?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"/>
+  <img src="https://img.shields.io/badge/⚡_OpenClash-Konfigurasi_Pro-FF6B6B?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"/>
   <img src="https://img.shields.io/badge/🎮_Gaming-Teroptimasi-4ECDC4?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🛡️_Keamanan-45B7D1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/⚡_Performa-Up-FFA07A?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🛡️_Keamanan-Tingkat_Tinggi-45B7D1?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/⚡_Performa-Super_Cepat-FFA07A?style=for-the-badge"/>
 </p>
 
 <!-- Visitor counter dengan style khusus -->
@@ -35,14 +35,9 @@
 
 ---
 
-<!-- Hero section dengan grid layout -->
-<table width="100%">
-<tr>
-<td width="60%">
-
 ## 🔥 Fitur Unggulan
 
-### ⚡ **Performance**
+### ⚡ **Performa Kilat**
 ```yaml
 ⭐ 78,000+ Aturan Blokir Iklan
 🎯 15+ Optimasi Game  
@@ -66,17 +61,14 @@
 - **Penjaga Privasi**: Zero logging
 - **Keluarga Aman**: Filter konten dewasa
 
-</td>
-<td width="40%">
-
 ## 📊 Dashboard Live
 
 <div align="center">
 
 <!-- Real-time stats dengan visual appeal -->
-<img src="https://github-readme-stats.vercel.app/api?username=fadzdigital&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=70a5fd&icon_color=bf91f3&text_color=38bdae&custom_title=Developer%20Elite"/>
+<img src="https://github-readme-stats.vercel.app/api?username=fadzdigital&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=70a5fd&icon_color=bf91f3&text_color=38bdae&custom_title=Developer%20Elite" width="100%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fadzdigital&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=70a5fd&text_color=38bdae"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fadzdigital&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=70a5fd&text_color=38bdae" width="100%"/>
 
 <!-- Status indicators -->
 <img src="https://img.shields.io/badge/Status-🟢_ONLINE-brightgreen?style=flat-square"/>
@@ -85,10 +77,6 @@
 
 </div>
 
-</td>
-</tr>
-</table>
-
 ---
 
 ## 🚀 Setup Instan
@@ -96,17 +84,17 @@
 ### 📱 **Metode Cepat (Copy-Paste)**
 ```bash
 # Download langsung ke router
-wget -O /tmp/mikkucok.yaml https://raw.githubusercontent.com/fadzdigital/config_oc/main/mikkucok.yaml
+wget -O /tmp/config.yaml https://raw.githubusercontent.com/fadzdigital/config_oc/main/config.yaml
 
 # Copy ke folder OpenClash
-cp /tmp/mikkucok.yaml /etc/openclash/
+cp /tmp/config.yaml /etc/openclash/
 
 # Restart OpenClash
 /etc/init.d/openclash restart
 ```
 
 ### 🌐 **Upload Manual (Pemula)**
-1. 📥 **Download**: [`mikkucok.yaml`](https://raw.githubusercontent.com/fadzdigital/config_oc/main/mikkucok.yaml)
+1. 📥 **Download**: [`config.yaml`](https://raw.githubusercontent.com/fadzdigital/config_oc/main/config.yaml)
 2. 🌐 **Buka OpenClash** → **Upload Config** → Pilih file
 3. ▶️ **Start OpenClash** → Tunggu download rules
 4. 🎉 **Selesai!** Nikmati internet super cepat
@@ -117,10 +105,6 @@ cp /tmp/mikkucok.yaml /etc/openclash/
 
 <details>
 <summary><b>🔥 15+ Game Teroptimasi - Klik untuk lihat</b></summary>
-
-<table>
-<tr>
-<td width="50%">
 
 ### 📱 **Game MOBA**
 - **Mobile Legends** (MLBB)
@@ -141,9 +125,6 @@ cp /tmp/mikkucok.yaml /etc/openclash/
   - TCP: `3013`, `10000-10019`
   - UDP: `7085-7995`
 
-</td>
-<td width="50%">
-
 ### 🏰 **Game Strategi**
 - **Clash of Clans** & **Clash Royale**
   - TCP/UDP: `9330-9340`
@@ -163,10 +144,6 @@ cp /tmp/mikkucok.yaml /etc/openclash/
 - **Growtopia**
   - Port: `16999`
 
-</td>
-</tr>
-</table>
-
 > **⚡ Pro Gaming**: Semua port sudah dioptimasi untuk latensi minimum!
 
 </details>
@@ -175,21 +152,18 @@ cp /tmp/mikkucok.yaml /etc/openclash/
 
 ## 🛡️ Sistem Blokir Iklan Canggih
 
-<div align="center">
+**Total: 78,000+ domain terblokir** 🚫
 
-| Provider | Aturan | Cakupan | Update |
-|----------|--------|---------|--------|
-| 🛡️ **AdGuard DNS** | 15,000+ | Global | 4 jam |
-| 🚫 **AdAway** | 12,000+ | Hosts | 4 jam |
-| 🇮🇩 **ABP Indo** | 5,000+ | Indonesia | 4 jam |
-| 📊 **OISD Kecil** | 8,000+ | Esensial | 4 jam |
-| 📊 **OISD Besar** | 25,000+ | Lengkap | 4 jam |
-| 🎯 **Aturan Custom** | 3,000+ | Gaming/Streaming | 4 jam |
-| 🔞 **Konten Dewasa** | 10,000+ | Keluarga Aman | 4 jam |
+### 📊 **Provider Blokir**
+- 🛡️ **AdGuard DNS**: 15,000+ rules (Global)
+- 🚫 **AdAway**: 12,000+ rules (Hosts)
+- 🇮🇩 **ABP Indo**: 5,000+ rules (Indonesia)
+- 📊 **OISD Kecil**: 8,000+ rules (Esensial)
+- 📊 **OISD Besar**: 25,000+ rules (Lengkap)
+- 🎯 **Aturan Custom**: 3,000+ rules (Gaming/Streaming)
+- 🔞 **Konten Dewasa**: 10,000+ rules (Keluarga Aman)
 
-**Total: 78,000+ domain terblokir**
-
-</div>
+**Update otomatis setiap 4 jam** ⏰
 
 <details>
 <summary><b>🔍 Kategori yang diblokir</b></summary>
@@ -274,7 +248,10 @@ uci commit dhcp
 ```
 
 ### 📊 **Masalah Performa**
+- 🔧 Aktifkan akselerasi hardware
+- 🔧 Tingkatkan alokasi memori
 - 🔧 Kurangi rule provider jika perlu
+- 🔧 Gunakan storage SSD untuk I/O lebih baik
 
 </details>
 
@@ -282,17 +259,18 @@ uci commit dhcp
 
 ## 🎯 Tips Pro
 
-<div align="center">
+### ⚡ **Optimasi Performa**
+- **Gunakan Best-Ping**: Auto-pilih server tercepat → 🚀 Kecepatan maksimal
+- **Mode Gaming**: Dedikasi core untuk gaming → 🎯 Latensi minimal
+- **Aktifkan DoH**: Enkripsi query DNS → 🔒 Keamanan tinggi
+- **Monitor Dashboard**: Performa real-time → 📈 Optimasi terus-menerus
+- **Auto-Update**: Rules selalu terbaru → 🛡️ Perlindungan maksimal
 
-| Tips | Deskripsi | Dampak |
-|------|-----------|--------|
-| ⚡ **Gunakan Best-Ping** | Auto-pilih server tercepat | 🚀 Kecepatan |
-| 🎮 **Mode Gaming** | Dedikasi core untuk gaming | 🎯 Latensi |
-| 🛡️ **Aktifkan DoH** | Enkripsi query DNS | 🔒 Keamanan |
-| 📊 **Monitor Dashboard** | Performa real-time | 📈 Optimasi |
-| 🔄 **Auto-Update** | Rules selalu terbaru | 🛡️ Perlindungan |
-
-</div>
+### 🎮 **Khusus Gaming**
+- Pastikan game masuk ke grup Gaming
+- Gunakan "Best-Ping" untuk auto-select
+- Monitor latensi di dashboard
+- Test dengan DIRECT jika ada masalah
 
 ---
 
@@ -300,7 +278,7 @@ uci commit dhcp
 
 <div align="center">
 
-**Suka dengan Config ini? Begini cara membantu!**
+**Suka dengan project ini? Begini cara membantu!**
 
 [![Star](https://img.shields.io/badge/⭐-Beri_Bintang-yellow?style=for-the-badge)](https://github.com/fadzdigital/config_oc)
 [![Fork](https://img.shields.io/badge/🍴-Fork_&_Kembangkan-blue?style=for-the-badge)](https://github.com/fadzdigital/config_oc/fork)
@@ -327,13 +305,16 @@ uci commit dhcp
 ![GitHub followers](https://img.shields.io/github/followers/fadzdigital?style=for-the-badge&logo=github&label=PENGIKUT)
 ![GitHub User's stars](https://img.shields.io/github/stars/fadzdigital?style=for-the-badge&logo=github&label=TOTAL+BINTANG)
 
+<!-- Repository specific real-time stats -->
 ![GitHub Repo stars](https://img.shields.io/github/stars/fadzdigital/config_oc?style=for-the-badge&logo=github&label=BINTANG+REPO)
 ![GitHub forks](https://img.shields.io/github/forks/fadzdigital/config_oc?style=for-the-badge&logo=github&label=FORK)
 ![GitHub watchers](https://img.shields.io/github/watchers/fadzdigital/config_oc?style=for-the-badge&logo=github&label=PENGAMAT)
 
+<!-- Live activity metrics -->
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/fadzdigital/config_oc?style=for-the-badge&logo=github&label=COMMIT+BULANAN)
 ![GitHub last commit](https://img.shields.io/github/last-commit/fadzdigital/config_oc?style=for-the-badge&logo=github&label=COMMIT+TERAKHIR)
 
+<!-- Hit counter dengan style Indonesia -->
 <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ffadzdigital%2Fconfig_oc&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Kunjungan+Repo&edge_flat=false" alt="Kunjungan Repository">
 
 **📊 Statistik Repository**
@@ -352,8 +333,8 @@ uci commit dhcp
 
 ### 🌐 **Dapatkan Bantuan**
 
-[![Telegram](https://img.shields.io/badge/💬-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/fadzdigital)
-[![Discord](https://img.shields.io/badge/💬-WhatsApp-blurple?style=for-the-badge&logo=discord)](https://wa.me/6285727035336)
+[![Telegram](https://img.shields.io/badge/💬-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/openclash_indonesia)
+[![Discord](https://img.shields.io/badge/💬-Discord-blurple?style=for-the-badge&logo=discord)](https://discord.gg/openclash)
 [![GitHub Issues](https://img.shields.io/badge/🐛-GitHub_Issues-green?style=for-the-badge&logo=github)](https://github.com/fadzdigital/config_oc/issues)
 
 **Waktu Respon: < 24 jam**
@@ -380,22 +361,23 @@ Project ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE
 - **Tim OpenClash**: Aplikasi inti
 - **Project Clash**: Mesin proxy
 - **Rule Provider**: Rules komunitas
-- **Kontributor**: Semua orang Tresno-Sontek
+- **Kontributor**: Semua orang keren
 
 ### ⚖️ **Disclaimer**
 - Hanya untuk tujuan edukasi
 - Gunakan secara bertanggung jawab dan legal
 - Hormati hukum dan regulasi lokal
-- Tidak ada Unsur Lain , Selain Berbagi Config
+- Tidak ada garansi yang diberikan
 
 ---
 
-**Edited : [FadzDigital](https://github.com/fadzdigital)**
+**🔥 Dibuat dengan ❤️ oleh [FadzDigital](https://github.com/fadzdigital)**
 
 *Jangan lupa ⭐ bintangi repository ini jika membantu!*
 
-**Terakhir Diupdate**: Juli 2025 | **Versi**: 1.0
+**Terakhir Diupdate**: Juli 2025 | **Versi**: 2.0 Pro
 
+<!-- Footer dengan animasi -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
 
 </div>
