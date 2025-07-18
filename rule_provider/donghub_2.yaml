@@ -1,0 +1,214 @@
+payload:
+# Behavior: classical
+# > Donghua Streaming Rules
+# > Updated: 2025 - Chinese Animation & Donghua platforms
+
+# === INDONESIAN DONGHUA SITES ===
+# Animeindo Donghua
+  - DOMAIN-SUFFIX,animeindo.to
+  - DOMAIN-SUFFIX,animeindo.co
+  - DOMAIN-SUFFIX,animeindo.id
+  - DOMAIN-SUFFIX,animeindo.net
+
+# Neonime Donghua
+  - DOMAIN-SUFFIX,neonime.co
+  - DOMAIN-SUFFIX,neonime.com
+  - DOMAIN-SUFFIX,neonime.net
+  - DOMAIN-SUFFIX,neonime.org
+
+# Drivenime Donghua
+  - DOMAIN-SUFFIX,drivenime.com
+  - DOMAIN-SUFFIX,drivenime.net
+  - DOMAIN-SUFFIX,drivenime.id
+
+# Donghuaindo
+  - DOMAIN-SUFFIX,donghuaindo.com
+  - DOMAIN-SUFFIX,donghuaindo.net
+  - DOMAIN-SUFFIX,donghuaindo.id
+  - DOMAIN-SUFFIX,donghuaindo.co
+
+# Donghua Stream Indonesia
+  - DOMAIN-SUFFIX,donghuastream.com
+  - DOMAIN-SUFFIX,donghuastream.net
+  - DOMAIN-SUFFIX,donghuastream.id
+
+# === CHINESE DONGHUA PLATFORMS ===
+# Bilibili
+  - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,bilibili.tv
+  - DOMAIN-SUFFIX,bilibili.co
+  - DOMAIN-SUFFIX,b23.tv
+  - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,bilivideo.cn
+  - DOMAIN-SUFFIX,biliapi.com
+  - DOMAIN-SUFFIX,biliapi.net
+  - DOMAIN-SUFFIX,hdslb.com
+  - DOMAIN-SUFFIX,acgvideo.com
+
+# Youku (优酷)
+  - DOMAIN-SUFFIX,youku.com
+  - DOMAIN-SUFFIX,youku.cn
+  - DOMAIN-SUFFIX,ykimg.com
+  - DOMAIN-SUFFIX,yk.com
+
+# Mango TV (芒果TV)
+  - DOMAIN-SUFFIX,mgtv.com
+  - DOMAIN-SUFFIX,mango.tv
+  - DOMAIN-SUFFIX,mangotv.com
+  - DOMAIN-SUFFIX,hunantv.com
+
+# === INTERNATIONAL DONGHUA PLATFORMS ===
+# Funimation Donghua
+  - DOMAIN-SUFFIX,funimation.com
+  - DOMAIN-SUFFIX,funimation.co.uk
+  - DOMAIN-SUFFIX,funimation-api.com
+
+# AnimeLab Donghua
+  - DOMAIN-SUFFIX,animelab.com
+  - DOMAIN-SUFFIX,animelab.co
+
+# === DONGHUA STREAMING SITES ===
+# DonghuaWorld
+  - DOMAIN-SUFFIX,donghuaworld.com
+  - DOMAIN-SUFFIX,donghuaworld.net
+  - DOMAIN-SUFFIX,donghuaworld.tv
+  - DOMAIN-SUFFIX,donghuaworld.co
+
+# Donghua.watch
+  - DOMAIN-SUFFIX,donghua.watch
+  - DOMAIN-SUFFIX,donghua.tv
+  - DOMAIN-SUFFIX,donghua.co
+  - DOMAIN-SUFFIX,donghua.me
+
+# Hanime1 Donghua
+  - DOMAIN-SUFFIX,hanime1.me
+  - DOMAIN-SUFFIX,hanime1.com
+  - DOMAIN-SUFFIX,hanime1.tv
+
+# KissAnime Donghua
+  - DOMAIN-SUFFIX,kissanime.ru
+  - DOMAIN-SUFFIX,kissanime.tv
+  - DOMAIN-SUFFIX,kissanime.com
+  - DOMAIN-SUFFIX,kissanime.nz
+
+# 9Anime Donghua
+  - DOMAIN-SUFFIX,9anime.to
+  - DOMAIN-SUFFIX,9anime.cz
+  - DOMAIN-SUFFIX,9anime.id
+  - DOMAIN-SUFFIX,9anime.ws
+
+# GogoAnime Donghua
+  - DOMAIN-SUFFIX,gogoanime.vc
+  - DOMAIN-SUFFIX,gogoanime.wiki
+  - DOMAIN-SUFFIX,gogoanime.cm
+  - DOMAIN-SUFFIX,gogo-load.com
+
+# Zoro.to Donghua
+  - DOMAIN-SUFFIX,zoro.to
+  - DOMAIN-SUFFIX,aniwatch.to
+  - DOMAIN-SUFFIX,aniwatch.me
+
+# === DEDICATED DONGHUA SITES ===
+# Donghua Live
+  - DOMAIN-SUFFIX,donghualive.com
+  - DOMAIN-SUFFIX,donghualive.net
+  - DOMAIN-SUFFIX,donghualive.tv
+
+# Chinese Anime Online
+  - DOMAIN-SUFFIX,chineseanime.org
+  - DOMAIN-SUFFIX,chineseanime.com
+  - DOMAIN-SUFFIX,chineseanime.net
+
+# Donghua Club
+  - DOMAIN-SUFFIX,donghuaclub.com
+  - DOMAIN-SUFFIX,donghuaclub.net
+  - DOMAIN-SUFFIX,donghuaclub.tv
+
+# Donghua Stream
+  - DOMAIN-SUFFIX,donghuastream.tv
+  - DOMAIN-SUFFIX,donghuastream.me
+  - DOMAIN-SUFFIX,donghuastream.org
+
+# DonghuaZone
+  - DOMAIN-SUFFIX,donghuazone.com
+  - DOMAIN-SUFFIX,donghuazone.net
+  - DOMAIN-SUFFIX,donghuazone.tv
+
+# === CHINESE VIDEO PLATFORMS ===
+# Tudou (土豆)
+  - DOMAIN-SUFFIX,tudou.com
+  - DOMAIN-SUFFIX,tudou.cn
+  - DOMAIN-SUFFIX,tdimg.com
+
+# Sohu Video (搜狐视频)
+  - DOMAIN-SUFFIX,sohu.com
+  - DOMAIN-SUFFIX,sohu.cn
+  - DOMAIN-SUFFIX,tv.sohu.com
+
+# PPTV
+  - DOMAIN-SUFFIX,pptv.com
+  - DOMAIN-SUFFIX,pptv.cn
+  - DOMAIN-SUFFIX,pplive.com
+
+# Le TV (乐视)
+  - DOMAIN-SUFFIX,letv.com
+  - DOMAIN-SUFFIX,le.com
+  - DOMAIN-SUFFIX,lecloud.com
+
+# === DONGHUA CDN & STREAMING ===
+# Chinese CDN
+  - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,qcloud.com
+  - DOMAIN-SUFFIX,myqcloud.com
+  - DOMAIN-SUFFIX,gtimg.com
+  - DOMAIN-SUFFIX,gtimg.cn
+
+# Video CDN
+  - DOMAIN-SUFFIX,upos-sz-mirrorkodo.bilivideo.com
+  - DOMAIN-SUFFIX,upos-sz-mirrorhw.bilivideo.com
+  - DOMAIN-SUFFIX,upos-sz-mirrorcos.bilivideo.com
+
+# === DONGHUA COMMUNITY & FORUMS ===
+# Donghua Forums
+  - DOMAIN-SUFFIX,donghuaforum.com
+  - DOMAIN-SUFFIX,donghuaforum.net
+  - DOMAIN-SUFFIX,donghuaforum.org
+
+# Chinese Animation Forum
+  - DOMAIN-SUFFIX,cnanimation.com
+  - DOMAIN-SUFFIX,cnanimation.net
+  - DOMAIN-SUFFIX,cnanimation.org
+
+# === DONGHUA NEWS & INFO ===
+# Donghua News
+  - DOMAIN-SUFFIX,donghuanews.com
+  - DOMAIN-SUFFIX,donghuanews.net
+  - DOMAIN-SUFFIX,donghuanews.org
+
+# Chinese Animation News
+  - DOMAIN-SUFFIX,cnanime.com
+  - DOMAIN-SUFFIX,cnanime.net
+  - DOMAIN-SUFFIX,cnanime.org
+
+# === MOBILE DONGHUA APPS ===
+# Bilibili Mobile
+  - DOMAIN-SUFFIX,bili2233.cn
+  - DOMAIN-SUFFIX,biliimg.com
+  - DOMAIN-SUFFIX,bilibiligame.com
+
+# === DONGHUA KEYWORDS ===
+  - DOMAIN-KEYWORD,donghua
+  - DOMAIN-KEYWORD,donghwa
+  - DOMAIN-KEYWORD,chinese-anime
+  - DOMAIN-KEYWORD,chineseanime
+  - DOMAIN-KEYWORD,bilibili
+  - DOMAIN-KEYWORD,youku
+  - DOMAIN-KEYWORD,mango
+  - DOMAIN-KEYWORD,tencent
+  - DOMAIN-KEYWORD,tudou
+  - DOMAIN-KEYWORD,sohu
+  - DOMAIN-KEYWORD,pptv
+  - DOMAIN-KEYWORD,letv
+  - DOMAIN-KEYWORD,manhua
+  - DOMAIN-KEYWORD,webtoon-cn
+  - DOMAIN-KEYWORD,animation-cn

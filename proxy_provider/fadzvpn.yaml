@@ -1,0 +1,18 @@
+proxies:
+#//# Channel Tele > t.me/fadzdigital_ch
+#//# Telegram > t.me/fadzdigital 
+#//# WhatsApp  > 6285727035336 
+
+  - name: juarajamu301
+    server: bot.vpnluxury.web.id
+    port: 443
+    type: trojan
+    password: 0197f833-82d0-7c42-81fd-3a3ea9390504
+    skip-cert-verify: true
+    network: ws
+    udp: true
+    sni: bot.vpnluxury.web.id
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: bot.vpnluxury.web.id

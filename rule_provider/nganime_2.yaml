@@ -1,0 +1,367 @@
+payload:
+# Behavior: domain
+# > Anime Streaming Rules
+# > Updated: 2025 - Indonesian & International anime sites
+
+# === INDONESIAN ANIME SITES ===
+# Anoboy (Popular Indonesian)
+  - "+.anoboy.watch"
+  - "+.anoboy.org"
+  - "+.anoboy.id"
+  - "+.anoboy.me"
+  - "+.anoboy.tv"
+  - "+.anoboy.co"
+  - "+.anoboy.net"
+
+# Neonime
+  - "+.neonime.co"
+  - "+.neonime.com"
+  - "+.neonime.net"
+  - "+.neonime.org"
+  - "+.neonime.id"
+  - "+.neonime.fun"
+
+# Gomunime
+  - "+.gomunime.is"
+  - "+.gomunime.com"
+  - "+.gomunime.net"
+  - "+.gomunime.id"
+  - "+.gomunime.co"
+
+# Oploverz
+  - "+.oploverz.in"
+  - "+.oploverz.me"
+  - "+.oploverz.net"
+  - "+.oploverz.co"
+  - "+.oploverz.id"
+
+# Kusonime
+  - "+.kusonime.com"
+  - "+.kusonime.net"
+  - "+.kusonime.org"
+  - "+.kusonime.id"
+
+# Meownime
+  - "+.meownime.moe"
+  - "+.meownime.com"
+  - "+.meownime.net"
+  - "+.meownime.id"
+
+# Animeindo
+  - "+.animeindo.to"
+  - "+.animeindo.co"
+  - "+.animeindo.id"
+  - "+.animeindo.net"
+
+# Samehadaku
+  - "+.samehadaku.tv"
+  - "+.samehadaku.co"
+  - "+.samehadaku.id"
+  - "+.samehadaku.net"
+
+# AnimeBatch
+  - "+.animebatch.id"
+  - "+.animebatch.me"
+  - "+.animebatch.co"
+
+# Kuramanime
+  - "+.kuramanime.com"
+  - "+.kuramanime.net"
+  - "+.kuramanime.co"
+  - "+.kuramanime.id"
+
+# Nimegami
+  - "+.nimegami.com"
+  - "+.nimegami.id"
+  - "+.nimegami.net"
+  - "+.nimegami.co"
+
+# Animesail
+  - "+.animesail.com"
+  - "+.animesail.co"
+  - "+.animesail.net"
+  - "+.animesail.id"
+
+# Riieyz
+  - "+.riieyz.net"
+  - "+.riieyz.com"
+  - "+.riieyz.id"
+
+# Wibudesu
+  - "+.wibudesu.com"
+  - "+.wibudesu.co"
+  - "+.wibudesu.net"
+  - "+.wibudesu.id"
+
+# Anitoki
+  - "+.anitoki.com"
+  - "+.anitoki.net"
+  - "+.anitoki.id"
+
+# AnimeKompi
+  - "+.animekompi.web.id"
+  - "+.animekompi.com"
+  - "+.animekompi.net"
+
+# Drivenime
+  - "+.drivenime.com"
+  - "+.drivenime.net"
+  - "+.drivenime.id"
+
+# Anibatch
+  - "+.anibatch.me"
+  - "+.anibatch.com"
+  - "+.anibatch.net"
+
+# Quinime
+  - "+.quinime.com"
+  - "+.quinime.net"
+  - "+.quinime.id"
+
+# Moenime
+  - "+.moenime.web.id"
+  - "+.moenime.com"
+  - "+.moenime.net"
+
+# Otakufile
+  - "+.otakufile.com"
+  - "+.otakufile.net"
+  - "+.otakufile.id"
+
+# Negumo
+  - "+.negumo.com"
+  - "+.negumo.net"
+  - "+.negumo.id"
+
+# Myanime
+  - "+.myanime.moe"
+  - "+.myanime.live"
+  - "+.myanime.co"
+
+# Otakudesu
+  - "+.otakudesu.cloud"
+  - "+.otakudesu.com"
+  - "+.otakudesu.co"
+  - "+.otakudesu.net"
+
+# Desustream
+  - "+.desustream.me"
+  - "+.desustream.com"
+  - "+.desustream.net"
+
+# Animekyun
+  - "+.animekyun.com"
+  - "+.animekyun.net"
+  - "+.animekyun.id"
+
+# Mihanblog
+  - "+.mihanblog.com"
+  - "+.mihanblog.net"
+  - "+.mihanblog.id"
+
+# Animeflix
+  - "+.animeflix.io"
+  - "+.animeflix.live"
+  - "+.animeflix.id"
+
+# Mynimeku
+  - "+.mynimeku.com"
+  - "+.mynimeku.net"
+  - "+.mynimeku.tv"
+
+# Nekonime
+  - "+.nekonime.com"
+  - "+.nekonime.net"
+  - "+.nekonime.id"
+
+# Nekopoi (18+)
+  - "+.nekopoi.care"
+  - "+.nekopoi.web.id"
+  - "+.nekopoi.co"
+
+# === 9ANIME NETWORK ===
+# 9Anime Main Sites
+  - "+.9anime.cz"
+  - "+.9anime.id"
+  - "+.9anime.to"
+  - "+.9anime.ws"
+  - "+.9anime-tv.com"
+  - "+.9anime.me"
+  - "+.9anime.ru"
+  - "+.9anime.gg"
+  - "+.9anime.pl"
+  - "+.9anime.live"
+  - "+.9anime.city"
+  - "+.9anime.zone"
+  - "+.9anime.club"
+  - "+.9anime.cx"
+  - "+.9anime.pe"
+  - "+.9anime.nl"
+
+# === GOGOANIME NETWORK ===
+# GogoAnime Main Sites
+  - "+.gogoanime.vc"
+  - "+.gogoanime.wiki"
+  - "+.gogoanime.cm"
+  - "+.gogoanime.sk"
+  - "+.gogoanime.bz"
+  - "+.gogoanime.so"
+  - "+.gogoanime.ai"
+  - "+.gogoanime.tel"
+  - "+.gogoanime.lu"
+  - "+.gogoanime.cl"
+  - "+.gogoanime.sh"
+  - "+.gogoanime.pe"
+  - "+.gogoanime.bid"
+
+# GogoAnime CDN & Streaming
+  - "+.gogo-load.com"
+  - "+.gogocdn.net"
+  - "+.gogoplay.io"
+  - "+.gogoplay.co"
+  - "+.gogostream.com"
+  - "+.gogohd.com"
+  - "+.gogotv.net"
+
+# === OFFICIAL/LEGAL ANIME PLATFORMS ===
+# Crunchyroll
+  - "+.crunchyroll.com"
+  - "+.crunchyroll.co.uk"
+  - "+.crunchyroll.fr"
+  - "+.crunchyroll.de"
+  - "+.crunchyroll.es"
+  - "+.crunchyroll.it"
+  - "+.crunchyroll.com.br"
+  - "+.crunchyroll-api.com"
+  - "+.crunchyroll-prod.com"
+
+# Funimation
+  - "+.funimation.com"
+  - "+.funimationnow.uk"
+  - "+.funimation.co.uk"
+  - "+.funimation-api.com"
+
+# HiDive
+  - "+.hidive.com"
+  - "+.hidive.co.uk"
+
+# VRV
+  - "+.vrv.co"
+  - "+.vrv.com"
+
+# AnimeLab
+  - "+.animelab.com"
+  - "+.animelab.co"
+
+# Viz Media
+  - "+.viz.com"
+  - "+.viz.co.uk"
+  - "+.vizkids.com"
+
+# Anime Planet
+  - "+.anime-planet.com"
+  - "+.anime-planet.co.uk"
+
+# Aniplus Asia
+  - "+.aniplus-asia.com"
+  - "+.aniplusasia.com"
+
+# === KISSANIME NETWORK ===
+# KissAnime
+  - "+.kissanime.ru"
+  - "+.kissanime.tv"
+  - "+.kissanime.com"
+  - "+.kissanime.nz"
+  - "+.kissanime.ac"
+  - "+.kissanime.to"
+  - "+.kissanime.ws"
+  - "+.kiss-anime.ws"
+  - "+.kissanimefree.net"
+  - "+.kissmanga.com"
+  - "+.kissmanga.org"
+
+# === ANIMEDAO NETWORK ===
+# AnimeDao
+  - "+.animedao.com"
+  - "+.animedao-tv.com"
+  - "+.animedao.to"
+  - "+.animedao.bz"
+  - "+.animedao.net"
+
+# === OTHER POPULAR ANIME SITES ===
+# AnimeKayo/KayoAnime
+  - "+.animekayo.com"
+  - "+.kayoanime.com"
+  - "+.kayo-anime.com"
+
+# AnimeHeaven
+  - "+.animeheaven.ru"
+  - "+.animeheaven.eu"
+  - "+.animeheaven.me"
+
+# AnimeFreak
+  - "+.animefreak.tv"
+  - "+.animefreak.com"
+
+# AnimeTake
+  - "+.animetake.tv"
+  - "+.animetake.com"
+
+# AnimeBee
+  - "+.animebee.to"
+  - "+.animebee.com"
+
+# Zoro.to (Popular)
+  - "+.zoro.to"
+  - "+.aniwatch.to"
+  - "+.aniwatch.me"
+  - "+.aniwatch.tv"
+
+# Twist.moe
+  - "+.twist.moe"
+  - "+.twist-moe.net"
+
+# Anilinkz
+  - "+.anilinkz.to"
+  - "+.anilinkz.tv"
+
+# AnimeFLV
+  - "+.animeflv.net"
+  - "+.animeflv.co"
+
+# AnimeUltima
+  - "+.animeultima.to"
+  - "+.animeultima.eu"
+
+# AnimePahe
+  - "+.animepahe.com"
+  - "+.animepahe.ru"
+
+# AnimeVibe
+  - "+.animevibe.tv"
+  - "+.animevibe.se"
+
+# === STREAMING PLATFORMS WITH ANIME ===
+# CONTV
+  - "+.contv.com"
+
+# AsianCrush
+  - "+.asiancrush.com"
+
+# Tubi TV
+  - "+.tubi.tv"
+
+# Midnight Pulp
+  - "+.midnightpulp.com"
+
+# === CDN & STREAMING SERVERS ===
+# Common Anime CDNs
+  - "+.streamani.net"
+  - "+.fembed.com"
+  - "+.mp4upload.com"
+  - "+.vidstreaming.io"
+  - "+.gcdnb.pbf.dev"
+  - "+.vidcdn.pro"
+  - "+.streamtape.com"
+  - "+.doodstream.com"
+  - "+.mixdrop.co"

@@ -1,0 +1,282 @@
+payload:
+# Behavior: domain
+# > Online Shopping Rules
+# > Updated: 2025 - e-commerce & shopping platforms
+
+# === E-COMMERCE ===
+# Shopee
+  - "+.shopee.co.id"
+  - "+.shopeemobile.com"
+  - "+.shopee.sg"
+  - "+.shopee.com"
+  - "+.shopee.my"
+  - "+.shopee.ph"
+  - "+.shopee.th"
+  - "+.shopee.vn"
+  - "+.shopee.tw"
+  - "+.shopee.br"
+  - "+.shp.ee"
+  - "+.spee.co.id"
+
+# Tokopedia
+  - "+.tokopedia.com"
+  - "+.tokopedia.net"
+  - "+.tokopedia.link"
+  - "+.tkp.me"
+
+# Bukalapak
+  - "+.bukalapak.com"
+  - "+.bukalapak.io"
+  - "+.buka.co.id"
+  - "+.bukareview.com"
+  - "+.bukareksa.com"
+
+# Blibli
+  - "+.blibli.com"
+  - "+.blibli.zone"
+  - "+.bli.co.id"
+  - "+.bliblicommerce.com"
+
+# Lazada
+  - "+.lazada.co.id"
+  - "+.lazada.com"
+  - "+.lazada.sg"
+  - "+.lazada.my"
+  - "+.lazada.ph"
+  - "+.lazada.th"
+  - "+.lazada.vn"
+  - "+.laz.co.id"
+  - "+.lzd.co"
+  - "+.lazcdn.com"
+
+# === MARKETPLACES ===
+# JD.ID
+  - "+.jd.id"
+  - "+.jd.co.id"
+  - "+.jdlogistics.com"
+  - "+.jdpay.com"
+
+# Zalora
+  - "+.zalora.co.id"
+  - "+.zalora.com"
+  - "+.zalora.sg"
+  - "+.zalora.my"
+  - "+.zalora.ph"
+  - "+.zalora.com.au"
+  - "+.zalora.com.tw"
+  - "+.zalora.com.hk"
+  - "+.zalora.com.bn"
+  - "+.zalora.com.my"
+
+# Orami
+  - "+.orami.co.id"
+  - "+.orami.com"
+
+# Sociolla
+  - "+.sociolla.com"
+  - "+.sociolla.co.id"
+  - "+.soco.id"
+
+# MatahariMall
+  - "+.mataharimall.com"
+  - "+.mataharimall.co.id"
+
+# Elevenia
+  - "+.elevenia.co.id"
+  - "+.elevenia.com"
+
+# Bhinneka
+  - "+.bhinneka.com"
+  - "+.bhinneka.co.id"
+
+# VIP Plaza
+  - "+.vipplaza.co.id"
+  - "+.vipplaza.com"
+
+# === FASHION & LIFESTYLE ===
+# Berrybenka
+  - "+.berrybenka.com"
+  - "+.berrybenka.co.id"
+
+# Mapemall
+  - "+.mapemall.com"
+  - "+.mapemall.co.id"
+
+# Zilingo
+  - "+.zilingo.com"
+  - "+.zilingo.co.id"
+
+# Love Bonito
+  - "+.lovebonito.com"
+  - "+.lovebonito.co.id"
+
+# Pomelo Fashion
+  - "+.pomelofashion.com"
+  - "+.pomelofashion.co.id"
+
+# === FOOD & GROCERY ===
+# Sayurbox
+  - "+.sayurbox.com"
+  - "+.sayurbox.co.id"
+
+# TaniHub
+  - "+.tanihub.com"
+  - "+.tanihub.co.id"
+
+# HappyFresh
+  - "+.happyfresh.com"
+  - "+.happyfresh.co.id"
+
+# Chilibeli
+  - "+.chilibeli.com"
+  - "+.chilibeli.co.id"
+
+# Ranch Market
+  - "+.ranchmarket.co.id"
+  - "+.ranchmarket.com"
+
+# === TRAVEL & TICKETS ===
+# Traveloka
+  - "+.traveloka.com"
+  - "+.traveloka.co.id"
+
+# Tiket.com
+  - "+.tiket.com"
+  - "+.tiket.co.id"
+
+# Pegipegi
+  - "+.pegipegi.com"
+  - "+.pegipegi.co.id"
+
+# === AUTOMOTIVE ===
+# Seva
+  - "+.seva.id"
+  - "+.seva.com"
+
+# Carmudi
+  - "+.carmudi.co.id"
+  - "+.carmudi.com"
+
+# OLX Indonesia
+  - "+.olx.co.id"
+  - "+.olx.com"
+
+# === ELECTRONICS & GADGETS ===
+# iBox
+  - "+.ibox.co.id"
+  - "+.ibox.com"
+
+# Erafone
+  - "+.erafone.com"
+  - "+.erafone.co.id"
+
+# Urban Republic
+  - "+.urbanrepublic.co.id"
+  - "+.urbanrepublic.com"
+
+# === BOOKS & EDUCATION ===
+# Gramedia
+  - "+.gramedia.com"
+  - "+.gramedia.co.id"
+
+# Mizan
+  - "+.mizan.com"
+  - "+.mizan.co.id"
+
+# === BEAUTY & HEALTH ===
+# Kimia Farma
+  - "+.kimiafarma.co.id"
+  - "+.kimiafarma.com"
+
+# Guardian
+  - "+.guardian.co.id"
+  - "+.guardian.com"
+
+# Watson
+  - "+.watsons.co.id"
+  - "+.watsons.com"
+
+# === GLOBAL E-COMMERCE ===
+# Amazon
+  - "+.amazon.com"
+  - "+.amazon.co.id"
+  - "+.amazon.sg"
+  - "+.amazon.co.uk"
+  - "+.amazon.de"
+  - "+.amazon.fr"
+  - "+.amazon.it"
+  - "+.amazon.es"
+  - "+.amazon.ca"
+  - "+.amazon.com.au"
+  - "+.amazon.co.jp"
+  - "+.amazon.in"
+  - "+.amazonpay.com"
+  - "+.amazonpay.co.id"
+
+# Alibaba
+  - "+.alibaba.com"
+  - "+.alibaba.co.id"
+  - "+.aliexpress.com"
+  - "+.alicdn.com"
+  - "+.alipay.com"
+  - "+.tmall.com"
+  - "+.taobao.com"
+  - "+.1688.com"
+
+# eBay
+  - "+.ebay.com"
+  - "+.ebay.co.id"
+  - "+.ebay.co.uk"
+  - "+.ebay.de"
+  - "+.ebay.fr"
+  - "+.ebay.it"
+  - "+.ebay.es"
+  - "+.ebay.ca"
+  - "+.ebay.com.au"
+  - "+.ebayimg.com"
+  - "+.ebaystatic.com"
+
+# Shopify
+  - "+.shopify.com"
+  - "+.shopify.co.id"
+  - "+.shopifycdn.com"
+  - "+.shopifycs.com"
+  - "+.myshopify.com"
+
+# === LOGISTICS & DELIVERY ===
+# JNE
+  - "+.jne.co.id"
+  - "+.jne.com"
+
+# J&T Express
+  - "+.jet.co.id"
+  - "+.jtexpress.co.id"
+
+# TIKI
+  - "+.tiki.id"
+  - "+.tiki.co.id"
+
+# Pos Indonesia
+  - "+.posindonesia.co.id"
+  - "+.posindonesia.com"
+
+# SiCepat
+  - "+.sicepat.com"
+  - "+.sicepat.co.id"
+
+# Ninja Express
+  - "+.ninjaxpress.co"
+  - "+.ninjaxpress.com"
+
+# === ADDITIONAL SERVICES ===
+# Kredivo
+  - "+.kredivo.com"
+  - "+.kredivo.co.id"
+
+# Akulaku
+  - "+.akulaku.com"
+  - "+.akulaku.co.id"
+
+# Paylater
+  - "+.paylater.co.id"
+  - "+.paylater.com"

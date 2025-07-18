@@ -1,0 +1,657 @@
+redir-port: 7892
+port: 7890
+socks-port: 7891
+mixed-port: 7893
+mode: rule
+log-level: silent
+allow-lan: true
+unified-delay: true
+external-controller: 0.0.0.0:9090
+secret: ''
+bind-address: 0.0.0.0
+external-ui: ui
+tproxy-port: 7895
+tcp-concurrent: true	
+enable-process: true
+find-process-mode: always
+ipv6: true
+
+experimental:
+  ignore-resolve-fail: true
+  sniff-tls-sni: true
+  tracing: true
+hosts:
+  "localhost": 127.0.0.1
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+# ===== TUN SETTINGS =====
+tun:
+  enable: true
+  prefer-h3: true
+  listen: 0.0.0.0:53
+  stack: gvisor
+  dns-hijack:
+     - "any:53"
+     - "tcp://any:53"
+  auto-redir: true
+  auto-route: true
+  auto-detect-interface: true
+
+# ===== DNS CONFIGURATION =====
+dns:
+  enable: true
+  ipv6: true
+  default-nameserver:
+    - 112.215.198.248
+    - 112.215.198.254
+    - '9.9.9.9'
+    - '8.8.8.8'
+    - '1.1.1.1'
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - 'stun.*.*'
+    - 'stun.*.*.*'
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+    - '*.lan'
+    - '+.msftncsi.com'
+    - msftconnecttest.com
+    - 'time?.*.com'
+    - 'time.*.com'
+    - 'time.*.gov'
+    - 'time.*.apple.com'
+    - time-ios.apple.com
+    - 'time1.*.com'
+    - 'time2.*.com'
+    - 'time3.*.com'
+    - 'time4.*.com'
+    - 'time5.*.com'
+    - 'time6.*.com'
+    - 'time7.*.com'
+    - 'ntp?.*.com'
+    - 'ntp.*.com'
+    - 'ntp1.*.com'
+    - 'ntp2.*.com'
+    - 'ntp3.*.com'
+    - 'ntp4.*.com'
+    - 'ntp5.*.com'
+    - 'ntp6.*.com'
+    - 'ntp7.*.com'
+    - '+.pool.ntp.org'
+    - '+.ipv6.microsoft.com'
+    - speedtest.cros.wr.pvp.net
+    - network-test.debian.org
+    - detectportal.firefox.com
+    - cable.auth.com
+    - miwifi.com
+    - routerlogin.com
+    - routerlogin.net
+    - tendawifi.com
+    - tendawifi.net
+    - tplinklogin.net
+    - tplinkwifi.net
+    - '*.xiami.com'
+    - tplinkrepeater.net
+    - router.asus.com
+    - '*.*.*.srv.nintendo.net'
+    - '*.*.stun.playstation.net'
+    - '*.openwrt.pool.ntp.org'
+    - resolver1.opendns.com
+    - 'GC._msDCS.*.*'
+    - 'DC._msDCS.*.*'
+    - 'PDC._msDCS.*.*'
+  use-hosts: true
+
+  nameserver:
+    - "https://dns.quad9.net/dns-query"
+    - 112.215.198.248
+    - 112.215.198.254
+    
+  nameserver-policy:
+    # VPN server domains
+    '*.vpnluxury.web.id': '112.215.198.248'
+    '+.vpnluxury.web.id': '112.215.198.248'
+
+proxies:
+
+proxy-groups:
+# ===== MAIN PROXY GROUPS =====
+- name: 🌐 Internet
+  type: select
+  disable-udp: false
+  proxies:
+  - Load-Balance
+  - Fallback
+  - Best-Ping
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '120'
+
+- name: 📱 Social Media
+  type: select
+  disable-udp: false
+  proxies:
+  - Load-Balance
+  - Fallback
+  - Best-Ping
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '120'
+
+- name: 🎬 Streaming
+  type: select
+  disable-udp: false
+  proxies:
+  - Load-Balance
+  - Fallback
+  - Best-Ping
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '120'
+
+- name: 🌬️ Anime & Donghua
+  type: select
+  disable-udp: false
+  proxies:
+  - Load-Balance
+  - Fallback
+  - Best-Ping
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '120'
+  
+- name: 🇮🇩 Indonesia Traffic
+  type: select
+  disable-udp: false
+  proxies:
+  - Load-Balance
+  - Fallback
+  - Best-Ping
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '120'
+
+- name: 💳 Bank
+  type: select
+  disable-udp: false
+  proxies:
+  - DIRECT
+  - Fallback
+  - Best-Ping
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '120'
+  
+- name: 🛄 Shopping
+  type: select
+  disable-udp: false
+  proxies:
+  - DIRECT
+  - Fallback
+  - Best-Ping
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '120'
+
+- name: 🎮 Gaming
+  type: select
+  disable-udp: false
+  proxies:
+  - DIRECT
+  - Fallback
+  - Best-Ping
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '120'
+
+- name: 🕹️ Game Download
+  type: select
+  disable-udp: false
+  proxies:
+  - DIRECT
+  - Fallback
+  - Best-Ping
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '120'
+
+- name: ⚡ Speedtest
+  type: select
+  disable-udp: false
+  proxies:
+  - DIRECT
+  - Fallback
+  - Best-Ping
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '120'
+
+- name: 📞 Voice Call
+  type: select
+  disable-udp: false
+  proxies:
+  - DIRECT
+  - Fallback
+  - Best-Ping
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '120'
+
+- name: 📺 YouTube Only
+  type: select
+  disable-udp: false
+  proxies:
+  - DIRECT
+  - Fallback
+  - Best-Ping
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '120'
+
+- name: 🔧 ZeroTier Remote
+  type: select
+  disable-udp: false
+  proxies:
+  - DIRECT
+  - Fallback
+  - Best-Ping
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '120'
+
+- name: 🚫 Block Ads
+  type: select
+  disable-udp: false
+  proxies:
+  - REJECT
+  - Fallback
+  - Best-Ping
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '120'
+
+# ===== LOAD BALANCING GROUPS =====
+- name: Load-Balance
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '300'
+
+- name: Fallback
+  type: fallback
+  disable-udp: false
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '300'
+
+- name: Best-Ping
+  type: url-test
+  disable-udp: false
+  use:
+  - VPN-Account
+  url: http://www.gstatic.com/generate_204
+  interval: '300'
+
+proxy-providers:
+  VPN-Account:
+    type: http
+    path: "./proxy_provider/fadzvpn.yaml"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 30
+      
+rule-providers:
+  RP-Gamingport:
+    type: http
+    behavior: classical
+    path: "./rule_provider/2-game-custom.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-game-custom.yaml
+    interval: 14400
+  RP-Gaming:
+    type: http
+    behavior: classical
+    path: "./rule_provider/2-gaming.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-gaming.yaml
+    interval: 14400
+  RP-Sosmed:
+    type: http
+    behavior: classical
+    path: "./rule_provider/2-sosmed.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-sosmed.yaml
+    interval: 14400
+  RP-Streaming:
+    type: http
+    behavior: classical
+    path: "./rule_provider/2-streaming.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-streaming.yaml
+    interval: 14400
+  RP-Speedtest:
+    type: http
+    behavior: classical
+    path: "./rule_provider/2-speedtest.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-speedtest.yaml
+    interval: 14400
+  RP-Callwa:
+    type: http
+    behavior: classical
+    path: "./rule_provider/2-RP-Callwa.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-RP-Callwa.yaml
+    interval: 14400
+  RP-YT:
+    type: http
+    behavior: classical
+    path: "./rule_provider/2-RP-YT.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-RP-YT.yaml
+    interval: 14400
+  RP-Iklan:
+    type: http
+    behavior: classical
+    path: "./rule_provider/2-iklan.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-iklan.yaml
+    interval: 14400
+  adaway:
+    type: http
+    behavior: classical
+    path: "./rule_provider/2-adaway.yaml"
+    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/adaway.yaml
+    interval: 14400
+  adguard_dns:
+    type: http
+    behavior: classical
+    path: "./rule_provider/2-AdguardDNS.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-AdguardDNS.yaml
+    interval: 14400
+  oisd_small:
+    type: http
+    behavior: classical
+    path: "./rule_provider/oisd_small.yaml"
+    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/oisd_small.yaml
+    interval: 14400
+  oisd_big:
+    type: http
+    behavior: classical
+    path: "./rule_provider/oisd_big.yaml"
+    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/oisd_big.yaml
+    interval: 14400
+  AdguardMaster:
+    type: http
+    behavior: classical
+    path: "./rule_provider/AdblockMaster.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/AdblockMaster.yaml
+    interval: 14400
+  Pornsxxx:
+    type: http
+    behavior: domain
+    path: "./rule_provider/porns.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/porns.yaml
+    interval: 14400
+  WhatsApp:
+    type: http
+    behavior: domain
+    path: "./rule_provider/whatsapp.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/whatsapp.yaml
+    interval: 14400
+  Olshop:
+    type: http
+    behavior: domain
+    path: "./rule_provider/olshop.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/olshop.yaml
+    interval: 14400
+  wa2:
+    type: http
+    behavior: classical
+    path: "./rule_provider/wa2.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/wa2.yaml
+    interval: 14400
+  HoYoverse:
+    type: http
+    behavior: classical
+    path: "./rule_provider/HoYoverse.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/HoYoverse.yaml
+    interval: 14400
+  SuperCell:
+    type: http
+    behavior: classical
+    path: "./rule_provider/SuperCell.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/SuperCell.yaml
+    interval: 14400
+  Apexs:
+    type: http
+    behavior: classical
+    path: "./rule_provider/apexs.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/apexs.yaml
+    interval: 14400
+  NgepNgep:
+    type: http
+    behavior: classical
+    path: "./rule_provider/ngepngep.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/ngepngep.yaml
+    interval: 14400
+  abpindo:
+    type: http
+    behavior: classical
+    path: "./rule_provider/2-ABPindo.yaml"
+    url: https://raw.githubusercontent.com/hillz2/openclash_adblock/main/ABPindo.yaml
+    interval: 14400
+  RP-Zero:
+    type: http
+    behavior: classical
+    path: "./rule_provider/2-zerotier.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-zerotier.yaml
+    interval: 14400
+  RP-Belanja:
+    type: http
+    behavior: domain 
+    path: "./rule_provider/papakerja_mamabelanja.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/papakerja_mamabelanja.yaml
+    interval: 14400
+  rule_Indo:
+    type: http
+    behavior: classical
+    path: "./rule_provider/2-indo.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-indo.yaml
+    interval: 14400
+  rule_disneyplus:
+    type: http
+    behavior: classical
+    path: "./rule_provider/2-rule_disneyplus.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-rule_disneyplus.yaml
+    interval: 14400
+  rule_netflix:
+    type: http
+    behavior: domain
+    path: "./rule_provider/2-rule_netflix.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-rule_netflix.yaml
+    interval: 14400
+  rule_direct:
+    type: http
+    behavior: classical
+    path: "./rule_provider/0-DIRECT.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/0-DIRECT.yaml
+    interval: 14400
+  Animek:
+    type: http
+    behavior: classical
+    path: "./rule_provider/nganime.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/nganime.yaml
+    interval: 14400
+  Animes:
+    type: http
+    behavior: domain
+    path: "./rule_provider/nganime_2.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/nganime_2.yaml
+    interval: 14400
+  Donghub:
+    type: http
+    behavior: domain
+    path: "./rule_provider/donghub_1.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/donghub_1.yaml
+    interval: 14400
+  Donghua:
+    type: http
+    behavior: classical
+    path: "./rule_provider/donghub_2.yaml"
+    url: https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/donghub_2.yaml
+    interval: 14400
+      
+rules:
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- RULE-SET,rule_direct,DIRECT
+
+# Social Media
+- RULE-SET,RP-Sosmed,📱 Social Media
+
+# Anime & Donghua
+- RULE-SET,Animek,🌬️ Anime & Donghua
+- RULE-SET,Animes,🌬️ Anime & Donghua
+- RULE-SET,Donghub,🌬️ Anime & Donghua
+- RULE-SET,Donghua,🌬️ Anime & Donghua
+
+# Streaming Services
+- RULE-SET,RP-Streaming,🎬 Streaming
+
+# Indonesia Traffic (Netflix, Disney+, etc.)
+- RULE-SET,rule_Indo,🇮🇩 Indonesia Traffic
+- RULE-SET,rule_disneyplus,🇮🇩 Indonesia Traffic
+- RULE-SET,rule_netflix,🇮🇩 Indonesia Traffic
+
+# Banking
+- RULE-SET,RP-Belanja,💳 Bank
+
+# Shopping
+- RULE-SET,Olshop,🛄 Shopping
+
+# Gaming
+- RULE-SET,RP-Gaming,🕹️ Game Download
+- RULE-SET,RP-Gamingport,🎮 Gaming
+- RULE-SET,HoYoverse,🎮 Gaming
+- RULE-SET,SuperCell,🎮 Gaming
+- RULE-SET,Apexs,🎮 Gaming
+- RULE-SET,SuperCell,🎮 Gaming
+- RULE-SET,NgepNgep,🎮 Gaming
+
+# Other Services
+- RULE-SET,RP-Speedtest,⚡ Speedtest
+- RULE-SET,RP-Callwa,📞 Voice Call
+- RULE-SET,WhatsApp,📞 Voice Call
+- RULE-SET,wa2,📞 Voice Call
+- RULE-SET,RP-YT,📺 YouTube Only
+
+# Ad Blocking
+- RULE-SET,RP-Iklan,🚫 Block Ads
+- RULE-SET,abpindo,🚫 Block Ads
+- RULE-SET,adguard_dns,🚫 Block Ads
+- RULE-SET,adaway,🚫 Block Ads
+- RULE-SET,oisd_small,🚫 Block Ads
+- RULE-SET,oisd_big,🚫 Block Ads
+- RULE-SET,AdguardMaster,🚫 Block Ads
+- RULE-SET,Pornsxxx,🚫 Block Ads
+
+# Remote Access
+- RULE-SET,RP-Zero,🔧 ZeroTier Remote
+
+# Gaming Ports
+#MLBB
+- DST-PORT,5000-5221/5224-5227/5229-5241/5243-5287/5289-5352/5354-5509/5517/5520-5529/5551-5559/5601-5700/8443/9000-9010/9443/10003/30000-30300,🎮 Gaming,tcp
+- DST-PORT,5517-5529/5551-5559/5601-5700/8001/8130/8443/9000-9010/9120/9992/10003/30000-30300,🎮 Gaming,udp
+
+#FF
+- DST-PORT,6006/6008/6674/7006-7008/7889/8001-8012/9006/9137/10000-10012/11000-11019/12006/12008/13006/15006/20561/39003/39006/39698/39779/39800,🎮 Gaming,tcp
+- DST-PORT,6006/6008/6674/7006-7008/7889/8008/8001-8012/8130/8443/9008/9120/10000-10015/10100/11000-11019/12008/13008,🎮 Gaming,udp
+
+#PUBG
+- DST-PORT,7889/10012/13004/14000/17000/17500/18081/20000-20002/20371,🎮 Gaming,tcp
+- DST-PORT,8011/9030/10491/10612/12235/13004/13748/17000/17500/20000-20002/7086-7995/10039/10096/11455/12070-12460/13894/13972/41182-41192,🎮 Gaming,udp
+
+#CODM
+- DST-PORT,3013/10000-10019/18082/50000/65010/65050,🎮 Gaming,tcp
+- DST-PORT,7085-7995/8700/9030/10010-10019/17000-20100,🎮 Gaming,udp
+
+#AOV
+- DST-PORT,10001-10094,🎮 Gaming,tcp
+- DST-PORT,10101-10201/10080-10110/17000-18000,🎮 Gaming,udp
+
+#Stumble Guys
+- DST-PORT,5055-5058,🎮 Gaming,udp
+
+#Genshin Impact
+- DST-PORT,42472,🎮 Gaming,tcp
+- DST-PORT,42472/22101-22102,🎮 Gaming,udp
+
+#Clash of Clans (COC) & Clash Royale
+- DST-PORT,9330-9340,🎮 Gaming,tcp
+- DST-PORT,9330-9340,🎮 Gaming,udp
+
+#League of Legends (LOL) Mobile
+- DST-PORT,2080-2099,🎮 Gaming,tcp
+- DST-PORT,5100,🎮 Gaming,udp
+
+#DOTA2
+- DST-PORT,9100-9200/8230-8250/8110-8120/27000-28998,🎮 Gaming,tcp
+- DST-PORT,27000-28998/39000,🎮 Gaming,udp
+
+#FIFA ONLINE
+- DST-PORT,7770-7790,🎮 Gaming,tcp
+- DST-PORT,16300-16350,🎮 Gaming,udp
+
+#Point Blank Mobile (PB-Mobile)
+- DST-PORT,44590-44610,🎮 Gaming,tcp
+- DST-PORT,40000-40010,🎮 Gaming,udp
+
+#LINE Let's Get Rich
+- DST-PORT,10500-10515,🎮 Gaming,tcp
+
+#Dream League Soccer
+- DST-PORT,60970-60980,🎮 Gaming,udp
+
+#Among Us
+- DST-PORT,27015-27030/27036-27037,🎮 Gaming,tcp
+- DST-PORT,4380/27000-27031/27036,🎮 Gaming,udp
+
+#Bleach ES
+- DST-PORT,14422,🎮 Gaming
+
+#Growtopia
+- DST-PORT,16999,🎮 Gaming
+
+#Apex|FF|MLBB
+- DST-PORT,8888,🎮 Gaming
+
+#Seven Knight
+- DST-PORT,12000-12010,🎮 Gaming,tcp
+
+#DOMINO QQ
+- DST-PORT,9122/11000-11150,🎮 Gaming,tcp
+
+#DOMINO QQ 2
+- DST-PORT,50001-50500,🎮 Gaming,tcp
+- DST-PORT,5353/40000-40010,🎮 Gaming,udp
+
+#BOOYA DOMINO QIUQIU
+- DST-PORT,7020-7030,🎮 Gaming,tcp
+
+- MATCH,🌐 Internet

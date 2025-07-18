@@ -1,21 +1,5 @@
 payload:
- #ISP
-  - "+.telkomsel.com"
-  - "+.prd-idn-telkomsel-dap.timwe.com"
-  - "+.xl.co.id"
-  - "+.xlaxiata.co.id"
- #Olshop
-  - "+.shopee.co.id"
-  - "+.shopeemobile.com"
-  - "+.shopee.sg"
-  - "+.lazada.co.id"
-  - "+.bukalapak.com"
-  - "+.blibli.com"
-  - "+.tokopedia.com"
-  - "+.amazon.com"
-  - "+.alibaba.com"
-  - "+.ebay.com"
-  - "+.shopify.com"
+
  #Bank
   - "+.dana.id"
   - "+.gw-dana.ebuckler.com"
@@ -55,3 +39,8 @@ payload:
   - "+.banksultim.co.id"
   - "+.bankpapua.co.id"
   - "+.neo-bank.com"
+  - "+.jenius.com"
+  - "+.tmrwbyuob.com"
+  - "+.paypal.com"
+  - "+.i-saku.com"
+  - "+.bareksa.com"

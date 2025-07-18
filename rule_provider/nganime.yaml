@@ -1,0 +1,412 @@
+payload:
+# Behavior: classical
+# > Anime Streaming Rules
+# > Updated: 2025 - Indonesian & International anime sites
+
+# === INDONESIAN ANIME SITES ===
+# Anoboy (Popular Indonesian)
+  - DOMAIN-SUFFIX,anoboy.watch
+  - DOMAIN-SUFFIX,anoboy.org
+  - DOMAIN-SUFFIX,anoboy.id
+  - DOMAIN-SUFFIX,anoboy.me
+  - DOMAIN-SUFFIX,anoboy.tv
+  - DOMAIN-SUFFIX,anoboy.co
+  - DOMAIN-SUFFIX,anoboy.net
+
+# Neonime
+  - DOMAIN-SUFFIX,neonime.co
+  - DOMAIN-SUFFIX,neonime.com
+  - DOMAIN-SUFFIX,neonime.net
+  - DOMAIN-SUFFIX,neonime.org
+  - DOMAIN-SUFFIX,neonime.id
+  - DOMAIN-SUFFIX,neonime.fun
+
+# Gomunime
+  - DOMAIN-SUFFIX,gomunime.is
+  - DOMAIN-SUFFIX,gomunime.com
+  - DOMAIN-SUFFIX,gomunime.net
+  - DOMAIN-SUFFIX,gomunime.id
+  - DOMAIN-SUFFIX,gomunime.co
+
+# Oploverz
+  - DOMAIN-SUFFIX,oploverz.in
+  - DOMAIN-SUFFIX,oploverz.me
+  - DOMAIN-SUFFIX,oploverz.net
+  - DOMAIN-SUFFIX,oploverz.co
+  - DOMAIN-SUFFIX,oploverz.id
+
+# Kusonime
+  - DOMAIN-SUFFIX,kusonime.com
+  - DOMAIN-SUFFIX,kusonime.net
+  - DOMAIN-SUFFIX,kusonime.org
+  - DOMAIN-SUFFIX,kusonime.id
+
+# Meownime
+  - DOMAIN-SUFFIX,meownime.moe
+  - DOMAIN-SUFFIX,meownime.com
+  - DOMAIN-SUFFIX,meownime.net
+  - DOMAIN-SUFFIX,meownime.id
+
+# Animeindo
+  - DOMAIN-SUFFIX,animeindo.to
+  - DOMAIN-SUFFIX,animeindo.co
+  - DOMAIN-SUFFIX,animeindo.id
+  - DOMAIN-SUFFIX,animeindo.net
+
+# Samehadaku
+  - DOMAIN-SUFFIX,samehadaku.tv
+  - DOMAIN-SUFFIX,samehadaku.co
+  - DOMAIN-SUFFIX,samehadaku.id
+  - DOMAIN-SUFFIX,samehadaku.net
+
+# AnimeBatch
+  - DOMAIN-SUFFIX,animebatch.id
+  - DOMAIN-SUFFIX,animebatch.me
+  - DOMAIN-SUFFIX,animebatch.co
+
+# Kuramanime
+  - DOMAIN-SUFFIX,kuramanime.com
+  - DOMAIN-SUFFIX,kuramanime.net
+  - DOMAIN-SUFFIX,kuramanime.co
+  - DOMAIN-SUFFIX,kuramanime.id
+
+# Nimegami
+  - DOMAIN-SUFFIX,nimegami.com
+  - DOMAIN-SUFFIX,nimegami.id
+  - DOMAIN-SUFFIX,nimegami.net
+  - DOMAIN-SUFFIX,nimegami.co
+
+# Animesail
+  - DOMAIN-SUFFIX,animesail.com
+  - DOMAIN-SUFFIX,animesail.co
+  - DOMAIN-SUFFIX,animesail.net
+  - DOMAIN-SUFFIX,animesail.id
+
+# Riieyz
+  - DOMAIN-SUFFIX,riieyz.net
+  - DOMAIN-SUFFIX,riieyz.com
+  - DOMAIN-SUFFIX,riieyz.id
+
+# Wibudesu
+  - DOMAIN-SUFFIX,wibudesu.com
+  - DOMAIN-SUFFIX,wibudesu.co
+  - DOMAIN-SUFFIX,wibudesu.net
+  - DOMAIN-SUFFIX,wibudesu.id
+
+# Anitoki
+  - DOMAIN-SUFFIX,anitoki.com
+  - DOMAIN-SUFFIX,anitoki.net
+  - DOMAIN-SUFFIX,anitoki.id
+
+# AnimeKompi
+  - DOMAIN-SUFFIX,animekompi.web.id
+  - DOMAIN-SUFFIX,animekompi.com
+  - DOMAIN-SUFFIX,animekompi.net
+
+# Drivenime
+  - DOMAIN-SUFFIX,drivenime.com
+  - DOMAIN-SUFFIX,drivenime.net
+  - DOMAIN-SUFFIX,drivenime.id
+
+# Anibatch
+  - DOMAIN-SUFFIX,anibatch.me
+  - DOMAIN-SUFFIX,anibatch.com
+  - DOMAIN-SUFFIX,anibatch.net
+
+# Quinime
+  - DOMAIN-SUFFIX,quinime.com
+  - DOMAIN-SUFFIX,quinime.net
+  - DOMAIN-SUFFIX,quinime.id
+
+# Moenime
+  - DOMAIN-SUFFIX,moenime.web.id
+  - DOMAIN-SUFFIX,moenime.com
+  - DOMAIN-SUFFIX,moenime.net
+
+# Otakufile
+  - DOMAIN-SUFFIX,otakufile.com
+  - DOMAIN-SUFFIX,otakufile.net
+  - DOMAIN-SUFFIX,otakufile.id
+
+# Negumo
+  - DOMAIN-SUFFIX,negumo.com
+  - DOMAIN-SUFFIX,negumo.net
+  - DOMAIN-SUFFIX,negumo.id
+
+# Myanime
+  - DOMAIN-SUFFIX,myanime.moe
+  - DOMAIN-SUFFIX,myanime.live
+  - DOMAIN-SUFFIX,myanime.co
+
+# Otakudesu
+  - DOMAIN-SUFFIX,otakudesu.cloud
+  - DOMAIN-SUFFIX,otakudesu.com
+  - DOMAIN-SUFFIX,otakudesu.co
+  - DOMAIN-SUFFIX,otakudesu.net
+
+# Desustream
+  - DOMAIN-SUFFIX,desustream.me
+  - DOMAIN-SUFFIX,desustream.com
+  - DOMAIN-SUFFIX,desustream.net
+
+# Animekyun
+  - DOMAIN-SUFFIX,animekyun.com
+  - DOMAIN-SUFFIX,animekyun.net
+  - DOMAIN-SUFFIX,animekyun.id
+
+# Mihanblog
+  - DOMAIN-SUFFIX,mihanblog.com
+  - DOMAIN-SUFFIX,mihanblog.net
+  - DOMAIN-SUFFIX,mihanblog.id
+
+# Animeflix
+  - DOMAIN-SUFFIX,animeflix.io
+  - DOMAIN-SUFFIX,animeflix.live
+  - DOMAIN-SUFFIX,animeflix.id
+
+# Mynimeku
+  - DOMAIN-SUFFIX,mynimeku.com
+  - DOMAIN-SUFFIX,mynimeku.net
+  - DOMAIN-SUFFIX,mynimeku.tv
+
+# Nekonime
+  - DOMAIN-SUFFIX,nekonime.com
+  - DOMAIN-SUFFIX,nekonime.net
+  - DOMAIN-SUFFIX,nekonime.id
+
+# Nekopoi (18+)
+  - DOMAIN-SUFFIX,nekopoi.care
+  - DOMAIN-SUFFIX,nekopoi.web.id
+  - DOMAIN-SUFFIX,nekopoi.co
+
+# === 9ANIME NETWORK ===
+# 9Anime Main Sites 
+  - DOMAIN-SUFFIX,9anime.cz
+  - DOMAIN-SUFFIX,9anime.id
+  - DOMAIN-SUFFIX,9anime.to
+  - DOMAIN-SUFFIX,9anime.ws
+  - DOMAIN-SUFFIX,9anime-tv.com
+  - DOMAIN-SUFFIX,9anime.me
+  - DOMAIN-SUFFIX,9anime.ru
+  - DOMAIN-SUFFIX,9anime.gg
+  - DOMAIN-SUFFIX,9anime.pl
+  - DOMAIN-SUFFIX,9anime.live
+  - DOMAIN-SUFFIX,9anime.city
+  - DOMAIN-SUFFIX,9anime.zone
+  - DOMAIN-SUFFIX,9anime.club
+  - DOMAIN-SUFFIX,9anime.cx
+  - DOMAIN-SUFFIX,9anime.pe
+  - DOMAIN-SUFFIX,9anime.nl
+
+# === GOGOANIME NETWORK ===
+# GogoAnime Main Sites 
+  - DOMAIN-SUFFIX,gogoanime.vc
+  - DOMAIN-SUFFIX,gogoanime.wiki
+  - DOMAIN-SUFFIX,gogoanime.cm
+  - DOMAIN-SUFFIX,gogoanime.sk
+  - DOMAIN-SUFFIX,gogoanime.bz
+  - DOMAIN-SUFFIX,gogoanime.so
+  - DOMAIN-SUFFIX,gogoanime.ai
+  - DOMAIN-SUFFIX,gogoanime.tel
+  - DOMAIN-SUFFIX,gogoanime.lu
+  - DOMAIN-SUFFIX,gogoanime.cl
+  - DOMAIN-SUFFIX,gogoanime.sh
+  - DOMAIN-SUFFIX,gogoanime.pe
+  - DOMAIN-SUFFIX,gogoanime.bid
+  - DOMAIN-SUFFIX,gogoanime.pe
+
+# GogoAnime CDN & Streaming
+  - DOMAIN-SUFFIX,gogo-load.com
+  - DOMAIN-SUFFIX,gogocdn.net
+  - DOMAIN-SUFFIX,gogoplay.io
+  - DOMAIN-SUFFIX,gogoplay.co
+  - DOMAIN-SUFFIX,gogostream.com
+  - DOMAIN-SUFFIX,gogohd.com
+  - DOMAIN-SUFFIX,gogotv.net
+
+# === OFFICIAL/LEGAL ANIME PLATFORMS ===
+# Crunchyroll
+  - DOMAIN-SUFFIX,crunchyroll.com
+  - DOMAIN-SUFFIX,crunchyroll.co.uk
+  - DOMAIN-SUFFIX,crunchyroll.fr
+  - DOMAIN-SUFFIX,crunchyroll.de
+  - DOMAIN-SUFFIX,crunchyroll.es
+  - DOMAIN-SUFFIX,crunchyroll.it
+  - DOMAIN-SUFFIX,crunchyroll.com.br
+  - DOMAIN-SUFFIX,crunchyroll-api.com
+  - DOMAIN-SUFFIX,crunchyroll-prod.com
+  - DOMAIN-SUFFIX,beta.crunchyroll.com
+
+# Funimation (Now part of Crunchyroll)
+  - DOMAIN-SUFFIX,funimation.com
+  - DOMAIN-SUFFIX,funimationnow.uk
+  - DOMAIN-SUFFIX,funimation.co.uk
+  - DOMAIN-SUFFIX,funimation-api.com
+
+# HiDive
+  - DOMAIN-SUFFIX,hidive.com
+  - DOMAIN-SUFFIX,hidive.co.uk
+
+# VRV
+  - DOMAIN-SUFFIX,vrv.co
+  - DOMAIN-SUFFIX,vrv.com
+
+# AnimeLab (Australia)
+  - DOMAIN-SUFFIX,animelab.com
+  - DOMAIN-SUFFIX,animelab.co
+
+# Viz Media
+  - DOMAIN-SUFFIX,viz.com
+  - DOMAIN-SUFFIX,viz.co.uk
+  - DOMAIN-SUFFIX,vizkids.com
+
+# Anime Planet
+  - DOMAIN-SUFFIX,anime-planet.com
+  - DOMAIN-SUFFIX,anime-planet.co.uk
+
+# Aniplus Asia
+  - DOMAIN-SUFFIX,aniplus-asia.com
+  - DOMAIN-SUFFIX,aniplusasia.com
+
+# === KISSANIME NETWORK ===
+# KissAnime 
+  - DOMAIN-SUFFIX,kissanime.ru
+  - DOMAIN-SUFFIX,kissanime.tv
+  - DOMAIN-SUFFIX,kissanime.com
+  - DOMAIN-SUFFIX,kissanime.nz
+  - DOMAIN-SUFFIX,kissanime.ac
+  - DOMAIN-SUFFIX,kissanime.to
+  - DOMAIN-SUFFIX,kissanime.ws
+
+# KissAnime Alternative Domains
+  - DOMAIN-SUFFIX,kiss-anime.ws
+  - DOMAIN-SUFFIX,kissanimefree.net
+  - DOMAIN-SUFFIX,kissmanga.com
+  - DOMAIN-SUFFIX,kissmanga.org
+
+# === ANIMEDAO NETWORK ===
+# AnimeDao 
+  - DOMAIN-SUFFIX,animedao.com
+  - DOMAIN-SUFFIX,animedao-tv.com
+  - DOMAIN-SUFFIX,animedao.to
+  - DOMAIN-SUFFIX,animedao.bz
+  - DOMAIN-SUFFIX,animedao.net
+
+# === OTHER POPULAR ANIME SITES ===
+# AnimeKayo/KayoAnime 
+  - DOMAIN-SUFFIX,animekayo.com
+  - DOMAIN-SUFFIX,kayoanime.com
+  - DOMAIN-SUFFIX,kayo-anime.com
+
+# AnimeHeaven
+  - DOMAIN-SUFFIX,animeheaven.ru
+  - DOMAIN-SUFFIX,animeheaven.eu
+  - DOMAIN-SUFFIX,animeheaven.me
+
+# AnimeFreak
+  - DOMAIN-SUFFIX,animefreak.tv
+  - DOMAIN-SUFFIX,animefreak.com
+
+# AnimeTake
+  - DOMAIN-SUFFIX,animetake.tv
+  - DOMAIN-SUFFIX,animetake.com
+
+# AnimeBee
+  - DOMAIN-SUFFIX,animebee.to
+  - DOMAIN-SUFFIX,animebee.com
+
+# Zoro.to (Popular)
+  - DOMAIN-SUFFIX,zoro.to
+  - DOMAIN-SUFFIX,aniwatch.to
+  - DOMAIN-SUFFIX,aniwatch.me
+
+# Aniwatch
+  - DOMAIN-SUFFIX,aniwatch.me
+  - DOMAIN-SUFFIX,aniwatch.to
+  - DOMAIN-SUFFIX,aniwatch.tv
+
+# Twist.moe
+  - DOMAIN-SUFFIX,twist.moe
+  - DOMAIN-SUFFIX,twist-moe.net
+
+# Anilinkz
+  - DOMAIN-SUFFIX,anilinkz.to
+  - DOMAIN-SUFFIX,anilinkz.tv
+
+# AnimeFLV
+  - DOMAIN-SUFFIX,animeflv.net
+  - DOMAIN-SUFFIX,animeflv.co
+
+# AnimeUltima
+  - DOMAIN-SUFFIX,animeultima.to
+  - DOMAIN-SUFFIX,animeultima.eu
+
+# AnimePahe
+  - DOMAIN-SUFFIX,animepahe.com
+  - DOMAIN-SUFFIX,animepahe.ru
+
+# AnimeVibe
+  - DOMAIN-SUFFIX,animevibe.tv
+  - DOMAIN-SUFFIX,animevibe.se
+
+# === STREAMING PLATFORMS WITH ANIME ===
+# CONTV
+  - DOMAIN-SUFFIX,contv.com
+
+# AsianCrush
+  - DOMAIN-SUFFIX,asiancrush.com
+
+# Tubi TV
+  - DOMAIN-SUFFIX,tubi.tv
+
+# Midnight Pulp
+  - DOMAIN-SUFFIX,midnightpulp.com
+
+# === CDN & STREAMING SERVERS ===
+# Common Anime CDNs
+  - DOMAIN-SUFFIX,streamani.net
+  - DOMAIN-SUFFIX,fembed.com
+  - DOMAIN-SUFFIX,mp4upload.com
+  - DOMAIN-SUFFIX,vidstreaming.io
+  - DOMAIN-SUFFIX,gcdnb.pbf.dev
+  - DOMAIN-SUFFIX,vidcdn.pro
+  - DOMAIN-SUFFIX,streamtape.com
+  - DOMAIN-SUFFIX,doodstream.com
+  - DOMAIN-SUFFIX,mixdrop.co
+
+# === KEYWORDS ===
+  - DOMAIN-KEYWORD,gogoplay
+  - DOMAIN-KEYWORD,gogoanime
+  - DOMAIN-KEYWORD,9anime
+  - DOMAIN-KEYWORD,kissanime
+  - DOMAIN-KEYWORD,animedao
+  - DOMAIN-KEYWORD,anoboy
+  - DOMAIN-KEYWORD,neonime
+  - DOMAIN-KEYWORD,gomunime
+  - DOMAIN-KEYWORD,animeindo
+  - DOMAIN-KEYWORD,samehadaku
+  - DOMAIN-KEYWORD,kusonime
+  - DOMAIN-KEYWORD,oploverz
+  - DOMAIN-KEYWORD,animebatch
+  - DOMAIN-KEYWORD,kuramanime
+  - DOMAIN-KEYWORD,nimegami
+  - DOMAIN-KEYWORD,animesail
+  - DOMAIN-KEYWORD,riieyz
+  - DOMAIN-KEYWORD,wibudesu
+  - DOMAIN-KEYWORD,anitoki
+  - DOMAIN-KEYWORD,animekompi
+  - DOMAIN-KEYWORD,drivenime
+  - DOMAIN-KEYWORD,anibatch
+  - DOMAIN-KEYWORD,quinime
+  - DOMAIN-KEYWORD,moenime
+  - DOMAIN-KEYWORD,otakufile
+  - DOMAIN-KEYWORD,negumo
+  - DOMAIN-KEYWORD,myanime
+  - DOMAIN-KEYWORD,otakudesu
+  - DOMAIN-KEYWORD,desustream
+  - DOMAIN-KEYWORD,animekyun
+  - DOMAIN-KEYWORD,mihanblog
+  - DOMAIN-KEYWORD,animeflix
+  - DOMAIN-KEYWORD,mynimeku
+  - DOMAIN-KEYWORD,nekonime
+  - DOMAIN-KEYWORD,nekopoi

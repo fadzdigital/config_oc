@@ -1,0 +1,194 @@
+payload:
+# Behavior: domain
+# > Donghua Streaming Rules
+# > Updated: 2025 - Chinese Animation & Donghua platforms
+
+# === INDONESIAN DONGHUA SITES ===
+# Animeindo Donghua
+  - "+.animeindo.to"
+  - "+.animeindo.co"
+  - "+.animeindo.id"
+  - "+.animeindo.net"
+
+# Neonime Donghua
+  - "+.neonime.co"
+  - "+.neonime.com"
+  - "+.neonime.net"
+  - "+.neonime.org"
+
+# Drivenime Donghua
+  - "+.drivenime.com"
+  - "+.drivenime.net"
+  - "+.drivenime.id"
+
+# Donghuaindo
+  - "+.donghuaindo.com"
+  - "+.donghuaindo.net"
+  - "+.donghuaindo.id"
+  - "+.donghuaindo.co"
+
+# Donghua Stream Indonesia
+  - "+.donghuastream.com"
+  - "+.donghuastream.net"
+  - "+.donghuastream.id"
+
+# === CHINESE DONGHUA PLATFORMS ===
+# Bilibili
+  - "+.bilibili.com"
+  - "+.bilibili.tv"
+  - "+.bilibili.co"
+  - "+.b23.tv"
+  - "+.bilivideo.com"
+  - "+.bilivideo.cn"
+  - "+.biliapi.com"
+  - "+.biliapi.net"
+  - "+.hdslb.com"
+  - "+.acgvideo.com"
+  - "+.bili2233.cn"
+  - "+.biliimg.com"
+  - "+.bilibiligame.com"
+
+# Youku (优酷)
+  - "+.youku.com"
+  - "+.youku.cn"
+  - "+.ykimg.com"
+  - "+.yk.com"
+
+# Mango TV (芒果TV)
+  - "+.mgtv.com"
+  - "+.mango.tv"
+  - "+.mangotv.com"
+  - "+.hunantv.com"
+
+# === INTERNATIONAL DONGHUA PLATFORMS ===
+# Funimation Donghua
+  - "+.funimation.com"
+  - "+.funimation.co.uk"
+  - "+.funimation-api.com"
+
+# AnimeLab Donghua
+  - "+.animelab.com"
+  - "+.animelab.co"
+
+# === DONGHUA STREAMING SITES ===
+# DonghuaWorld
+  - "+.donghuaworld.com"
+  - "+.donghuaworld.net"
+  - "+.donghuaworld.tv"
+  - "+.donghuaworld.co"
+
+# Donghua.watch
+  - "+.donghua.watch"
+  - "+.donghua.tv"
+  - "+.donghua.co"
+  - "+.donghua.me"
+
+# Hanime1 Donghua
+  - "+.hanime1.me"
+  - "+.hanime1.com"
+  - "+.hanime1.tv"
+
+# KissAnime Donghua
+  - "+.kissanime.ru"
+  - "+.kissanime.tv"
+  - "+.kissanime.com"
+  - "+.kissanime.nz"
+
+# 9Anime Donghua
+  - "+.9anime.to"
+  - "+.9anime.cz"
+  - "+.9anime.id"
+  - "+.9anime.ws"
+
+# GogoAnime Donghua
+  - "+.gogoanime.vc"
+  - "+.gogoanime.wiki"
+  - "+.gogoanime.cm"
+  - "+.gogo-load.com"
+
+# Zoro.to Donghua
+  - "+.zoro.to"
+  - "+.aniwatch.to"
+  - "+.aniwatch.me"
+
+# === DEDICATED DONGHUA SITES ===
+# Donghua Live
+  - "+.donghualive.com"
+  - "+.donghualive.net"
+  - "+.donghualive.tv"
+
+# Chinese Anime Online
+  - "+.chineseanime.org"
+  - "+.chineseanime.com"
+  - "+.chineseanime.net"
+
+# Donghua Club
+  - "+.donghuaclub.com"
+  - "+.donghuaclub.net"
+  - "+.donghuaclub.tv"
+
+# Donghua Stream
+  - "+.donghuastream.tv"
+  - "+.donghuastream.me"
+  - "+.donghuastream.org"
+
+# DonghuaZone
+  - "+.donghuazone.com"
+  - "+.donghuazone.net"
+  - "+.donghuazone.tv"
+
+# === CHINESE VIDEO PLATFORMS ===
+# Tudou (土豆)
+  - "+.tudou.com"
+  - "+.tudou.cn"
+  - "+.tdimg.com"
+
+# Sohu Video (搜狐视频)
+  - "+.sohu.com"
+  - "+.sohu.cn"
+  - "+.tv.sohu.com"
+
+# PPTV
+  - "+.pptv.com"
+  - "+.pptv.cn"
+  - "+.pplive.com"
+
+# Le TV (乐视)
+  - "+.letv.com"
+  - "+.le.com"
+  - "+.lecloud.com"
+
+# === DONGHUA CDN & STREAMING ===
+# Chinese CDN
+  - "+.alicdn.com"
+  - "+.qcloud.com"
+  - "+.myqcloud.com"
+  - "+.gtimg.com"
+  - "+.gtimg.cn"
+
+# Video CDN
+  - "+.upos-sz-mirrorkodo.bilivideo.com"
+  - "+.upos-sz-mirrorhw.bilivideo.com"
+  - "+.upos-sz-mirrorcos.bilivideo.com"
+
+# === DONGHUA COMMUNITY & FORUMS ===
+# Donghua Forums
+  - "+.donghuaforum.com"
+  - "+.donghuaforum.net"
+  - "+.donghuaforum.org"
+
+# Chinese Animation Forum
+  - "+.cnanimation.com"
+  - "+.cnanimation.net"
+  - "+.cnanimation.org"
+
+# === DONGHUA NEWS & INFO ===
+# Donghua News
+  - "+.donghuanews.com"
+  - "+.donghuanews.net"
+  - "+.donghuanews.org"
+
+# Chinese Animation News
+  - "+.cnanime.com"
+  - "+.cnanime.net"
+  - "+.cnanime.org"
