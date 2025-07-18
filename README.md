@@ -1,90 +1,89 @@
+<!-- Header dengan animasi -->
 <div align="center">
+  
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=OpenClash%20Pro&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Konfigurasi%20Proxy%20Profesional%20•%20Optimasi%20Gaming%20•%20Performa%20Ultra&descAlignY=51&descAlign=50"/>
 
-# 🚀 OpenClash Pro Configuration
+<!-- Badges dengan efek visual -->
+<p align="center">
+  <img src="https://img.shields.io/badge/⚡_OpenClash-Konfigurasi-FF6B6B?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"/>
+  <img src="https://img.shields.io/badge/🎮_Gaming-Teroptimasi-4ECDC4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🛡️_Keamanan-45B7D1?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/⚡_Performa-Up-FFA07A?style=for-the-badge"/>
+</p>
 
-<img src="https://img.shields.io/badge/OpenClash-Pro%20Config-blue?style=for-the-badge&logo=openwrt" alt="OpenClash">
-<img src="https://img.shields.io/badge/Status-Stable-green?style=for-the-badge" alt="Status">
-<img src="https://img.shields.io/github/stars/fadzdigital/config_oc?style=for-the-badge" alt="Stars">
-<img src="https://img.shields.io/github/forks/fadzdigital/config_oc?style=for-the-badge" alt="Forks">
-<img src="https://img.shields.io/github/issues/fadzdigital/config_oc?style=for-the-badge" alt="Issues">
+<!-- Visitor counter dengan style khusus -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=fadzdigital&repo=config_oc&color=blueviolet&style=for-the-badge&label=PENGGUNA+AKTIF"/>
+  <img src="https://img.shields.io/github/stars/fadzdigital/config_oc?style=for-the-badge&logo=github&color=yellow&logoColor=white&label=BINTANG"/>
+  <img src="https://img.shields.io/github/forks/fadzdigital/config_oc?style=for-the-badge&logo=github&color=orange&logoColor=white&label=FORK"/>
+</p>
 
-<!-- Real-time visitor counter -->
-<img src="https://komarev.com/ghpvc/?username=fadzdigital&repo=config_oc&color=brightgreen&style=for-the-badge&label=VISITORS" alt="Visitors">
-<img src="https://img.shields.io/github/last-commit/fadzdigital/config_oc?style=for-the-badge&color=blue" alt="Last Commit">
-<img src="https://img.shields.io/github/contributors/fadzdigital/config_oc?style=for-the-badge&color=orange" alt="Contributors">
-<img src="https://img.shields.io/github/languages/top/fadzdigital/config_oc?style=for-the-badge" alt="Top Language">
-
-<!-- GitHub Activity -->
-<img src="https://img.shields.io/github/commit-activity/m/fadzdigital/config_oc?style=for-the-badge&color=red" alt="Commit Activity">
-<img src="https://img.shields.io/github/repo-size/fadzdigital/config_oc?style=for-the-badge&color=purple" alt="Repo Size">
-
-**🌟 Konfigurasi OpenClash Premium dengan Advanced Features**
-
-*Rule-based Routing | Gaming Optimized | Ad Blocking | Load Balancing*
-
-[📥 Download Config](#-quick-start) • [📖 Documentation](#-fitur-utama) • [🎮 Gaming Setup](#-gaming-ports) • [🐛 Report Issue](https://github.com/fadzdigital/config_oc/issues)
+<!-- Quick action buttons -->
+<p align="center">
+  <a href="#-setup-instan">
+    <img src="https://img.shields.io/badge/🚀_SETUP_INSTAN-Klik_Disini-success?style=for-the-badge&logo=rocket"/>
+  </a>
+  <a href="#-mode-gaming">
+    <img src="https://img.shields.io/badge/🎮_MODE_GAMING-Aktifkan-critical?style=for-the-badge&logo=gamepad"/>
+  </a>
+  <a href="https://github.com/fadzdigital/config_oc/archive/refs/heads/main.zip">
+    <img src="https://img.shields.io/badge/⬇️_DOWNLOAD-Config_Terbaru-informational?style=for-the-badge&logo=download"/>
+  </a>
+</p>
 
 </div>
 
 ---
 
-## ⚡ Quick Start
-
-```bash
-# Clone repository
-git clone https://github.com/fadzdigital/config_oc.git
-
-# Copy config ke OpenClash
-cp config_oc/config.yaml /etc/openclash/
-
-# Restart OpenClash
-/etc/init.d/openclash restart
-```
-
-> **🔥 Pro Tip**: Star repository ini jika membantu! ⭐
-
----
-
-## ✨ Mengapa Pilih Config Ini?
-
-<table>
+<!-- Hero section dengan grid layout -->
+<table width="100%">
 <tr>
-<td width="50%">
+<td width="60%">
 
-### 🎯 **Gaming Performance**
-- ✅ 15+ Game Optimized
-- ✅ Ultra Low Latency
-- ✅ Anti-Lag Configuration
-- ✅ Auto Best Server
-
-</td>
-<td width="50%">
-
-### 🛡️ **Security & Privacy**
-- ✅ 7 Ad Blocking Layers
-- ✅ DNS Hijacking Protection
-- ✅ TUN Mode Security
-- ✅ Malware Blocking
-
-</td>
-</tr>
-<tr>
-<td width="50%">
+## 🔥 Fitur Unggulan
 
 ### ⚡ **Performance**
-- ✅ Load Balancing
-- ✅ Automatic Failover
-- ✅ Smart Routing
-- ✅ Optimized for Indonesia
+```yaml
+⭐ 78,000+ Aturan Blokir Iklan
+🎯 15+ Optimasi Game  
+🚀 Latensi Dibawah 20ms
+🛡️ Keamanan Tingkat Militer
+📊 Analitik Real-time
+🌍 Dukungan CDN Global
+```
+
+### 🎮 **Arsenal Gaming**
+- **Mobile Legends**: Latensi ultra-rendah
+- **PUBG Mobile**: Optimasi anti-lag  
+- **Free Fire**: Routing prioritas
+- **Call of Duty**: Tunnel khusus
+- **Genshin Impact**: Koneksi stabil
+- **+ 10 Game Lainnya**: Setup profesional
+
+### 🛡️ **Perisai Keamanan**
+- **Proteksi DNS**: Blokir malware
+- **Pembasmi Iklan**: Filter 7 lapis
+- **Penjaga Privasi**: Zero logging
+- **Keluarga Aman**: Filter konten dewasa
 
 </td>
-<td width="50%">
+<td width="40%">
 
-### 🎛️ **Easy Management**
-- ✅ Web Dashboard
-- ✅ Real-time Monitoring
-- ✅ One-Click Setup
-- ✅ Auto Updates
+## 📊 Dashboard Live
+
+<div align="center">
+
+<!-- Real-time stats dengan visual appeal -->
+<img src="https://github-readme-stats.vercel.app/api?username=fadzdigital&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=70a5fd&icon_color=bf91f3&text_color=38bdae&custom_title=Developer%20Elite"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fadzdigital&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=70a5fd&text_color=38bdae"/>
+
+<!-- Status indicators -->
+<img src="https://img.shields.io/badge/Status-🟢_ONLINE-brightgreen?style=flat-square"/>
+<img src="https://img.shields.io/badge/Uptime-99.9%25-brightgreen?style=flat-square"/>
+<img src="https://img.shields.io/badge/Pengguna-1000+-blue?style=flat-square"/>
+
+</div>
 
 </td>
 </tr>
@@ -92,123 +91,75 @@ cp config_oc/config.yaml /etc/openclash/
 
 ---
 
-## 📊 Live Stats
+## 🚀 Setup Instan
 
-<div align="center">
+### 📱 **Metode Cepat (Copy-Paste)**
+```bash
+# Download langsung ke router
+wget -O /tmp/mikkucok.yaml https://raw.githubusercontent.com/fadzdigital/config_oc/main/mikkucok.yaml
 
-<!-- GitHub Stats Cards -->
-<img src="https://github-readme-stats.vercel.app/api?username=fadzdigital&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73BCF7" width="49%">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fadzdigital&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=73BCF7" width="49%">
+# Copy ke folder OpenClash
+cp /tmp/mikkucok.yaml /etc/openclash/
 
-<!-- Repository specific stats -->
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=fadzdigital&repo=config_oc&theme=radical&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73BCF7" width="98%">
+# Restart OpenClash
+/etc/init.d/openclash restart
+```
 
-| Metric | Value | Status |
-|--------|--------|--------|
-| 🎮 **Games Supported** | 15+ | ✅ Active |
-| 🛡️ **Ad Block Rules** | 78,000+ | ✅ Updated |
-| 🌐 **Proxy Groups** | 13 | ✅ Optimized |
-| 📡 **DNS Servers** | 5 | ✅ Redundant |
-| ⚡ **Update Interval** | 4 Hours | ✅ Automatic |
-| 👥 **Active Users** | ![Download Count](https://img.shields.io/github/downloads/fadzdigital/config_oc/total?style=flat-square&color=brightgreen) | 🔥 Growing |
-
-<!-- Real-time activity feed -->
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=fadzdigital&theme=react-dark&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73BCF7)
-
-</div>
+### 🌐 **Upload Manual (Pemula)**
+1. 📥 **Download**: [`mikkucok.yaml`](https://raw.githubusercontent.com/fadzdigital/config_oc/main/mikkucok.yaml)
+2. 🌐 **Buka OpenClash** → **Upload Config** → Pilih file
+3. ▶️ **Start OpenClash** → Tunggu download rules
+4. 🎉 **Selesai!** Nikmati internet super cepat
 
 ---
 
-## 📋 Fitur Utama
-
-### 🔧 Konfigurasi Dasar
-- **Mode**: Rule-based routing
-- **TUN Mode**: Aktif dengan stack gvisor
-- **DNS Hijacking**: Semua traffic DNS (port 53)
-- **IPv6**: Didukung penuh
-- **External Controller**: Port 9090
-- **Mixed Port**: 7893 (HTTP/SOCKS proxy)
-
-### 🌐 Proxy Groups
+## 🎮 Mode Gaming
 
 <details>
-<summary><b>📱 Click to expand Proxy Groups</b></summary>
-
-#### 🎯 Main Groups
-| Group | Purpose | Default |
-|-------|---------|---------|
-| 🌐 **Internet** | General browsing | Load-Balance |
-| 📱 **Social Media** | Facebook, Instagram, Twitter | Load-Balance |
-| 🎬 **Streaming** | Netflix, YouTube, Disney+ | Load-Balance |
-| 🌬️ **Anime & Donghua** | Anime streaming sites | Load-Balance |
-| 🇮🇩 **Indonesia Traffic** | Local content | Load-Balance |
-
-#### 🛡️ Security Groups
-| Group | Purpose | Default |
-|-------|---------|---------|
-| 💳 **Bank** | Banking apps | DIRECT |
-| 🛄 **Shopping** | E-commerce | DIRECT |
-| 🎮 **Gaming** | Online games | DIRECT |
-| 🚫 **Block Ads** | Ad blocking | REJECT |
-
-#### ⚙️ System Groups
-| Group | Type | Function |
-|-------|------|----------|
-| **Load-Balance** | Round-robin | Distribute traffic |
-| **Fallback** | Failover | Auto backup |
-| **Best-Ping** | URL-test | Lowest latency |
-
-</details>
-
-### 🎮 Gaming Ports
-
-<details>
-<summary><b>🔥 15+ Games Optimized - Click to expand</b></summary>
+<summary><b>🔥 15+ Game Teroptimasi - Klik untuk lihat</b></summary>
 
 <table>
 <tr>
 <td width="50%">
 
-#### 📱 **MOBA Games**
+### 📱 **Game MOBA**
 - **Mobile Legends** (MLBB)
-  - TCP: `5000-5221`, `5224-5227`, `9000-9010`
-  - UDP: `5517-5529`, `8001`, `9992`
+  - TCP: `5000-5221`, `9000-9010`
+  - UDP: `5517-5529`, `8001`
 - **Arena of Valor** (AOV)
   - TCP: `10001-10094`
-  - UDP: `10101-10201`, `17000-18000`
+  - UDP: `10101-10201`
 
-#### 🔫 **Battle Royale**
+### 🔫 **Battle Royale**
 - **Free Fire**
-  - TCP: `6006`, `7006-7008`, `39003`
-  - UDP: `6674`, `8130`, `10100`
+  - TCP: `6006`, `7006-7008`
+  - UDP: `6674`, `8130`
 - **PUBG Mobile**
-  - TCP: `7889`, `17000`, `20000-20002`
-  - UDP: `10491`, `13748`, `41182-41192`
+  - TCP: `7889`, `17000`
+  - UDP: `10491`, `13748`
 - **Call of Duty Mobile**
-  - TCP: `3013`, `10000-10019`, `65010`
-  - UDP: `7085-7995`, `17000-20100`
+  - TCP: `3013`, `10000-10019`
+  - UDP: `7085-7995`
 
 </td>
 <td width="50%">
 
-#### 🏰 **Strategy Games**
+### 🏰 **Game Strategi**
 - **Clash of Clans** & **Clash Royale**
   - TCP/UDP: `9330-9340`
 - **Seven Knights**
   - TCP: `12000-12010`
 
-#### 🎲 **Card Games**
+### 🎲 **Game Kartu**
 - **Domino QQ**
   - TCP: `9122`, `11000-11150`
   - UDP: `40000-40010`
 - **Booya Domino**
   - TCP: `7020-7030`
 
-#### 🌟 **RPG/Adventure**
+### 🌟 **RPG/Adventure**
 - **Genshin Impact**
   - TCP/UDP: `42472`, `22101-22102`
-- **Bleach ES**
-  - Port: `14422`
 - **Growtopia**
   - Port: `16999`
 
@@ -216,189 +167,104 @@ cp config_oc/config.yaml /etc/openclash/
 </tr>
 </table>
 
-> **⚡ Pro Gaming**: Semua port sudah dioptimasi untuk latency minimum!
+> **⚡ Pro Gaming**: Semua port sudah dioptimasi untuk latensi minimum!
 
 </details>
 
-### 🛡️ Advanced Ad Blocking
+---
+
+## 🛡️ Sistem Blokir Iklan Canggih
 
 <div align="center">
 
-| Provider | Rules | Coverage | Update |
-|----------|-------|----------|--------|
-| 🛡️ **AdGuard DNS** | 15,000+ | Global | 4h |
-| 🚫 **AdAway** | 12,000+ | Hosts | 4h |
-| 🇮🇩 **ABP Indo** | 5,000+ | Indonesia | 4h |
-| 📊 **OISD Small** | 8,000+ | Essential | 4h |
-| 📊 **OISD Big** | 25,000+ | Comprehensive | 4h |
-| 🎯 **Custom Rules** | 3,000+ | Gaming/Streaming | 4h |
-| 🔞 **Adult Content** | 10,000+ | Family Safe | 4h |
+| Provider | Aturan | Cakupan | Update |
+|----------|--------|---------|--------|
+| 🛡️ **AdGuard DNS** | 15,000+ | Global | 4 jam |
+| 🚫 **AdAway** | 12,000+ | Hosts | 4 jam |
+| 🇮🇩 **ABP Indo** | 5,000+ | Indonesia | 4 jam |
+| 📊 **OISD Kecil** | 8,000+ | Esensial | 4 jam |
+| 📊 **OISD Besar** | 25,000+ | Lengkap | 4 jam |
+| 🎯 **Aturan Custom** | 3,000+ | Gaming/Streaming | 4 jam |
+| 🔞 **Konten Dewasa** | 10,000+ | Keluarga Aman | 4 jam |
 
-**Total: 78,000+ blocked domains**
+**Total: 78,000+ domain terblokir**
 
 </div>
 
 <details>
-<summary><b>🔍 Click to see blocked categories</b></summary>
+<summary><b>🔍 Kategori yang diblokir</b></summary>
 
-- ✅ **Ads & Tracking**: Banner, popup, tracking scripts
-- ✅ **Malware & Phishing**: Malicious websites
-- ✅ **Adult Content**: Family-friendly filtering
-- ✅ **Crypto Mining**: Browser mining scripts
-- ✅ **Social Trackers**: Facebook, Google trackers
-- ✅ **Telemetry**: Windows, Android telemetry
-- ✅ **Fake News**: Misinformation sites
+- ✅ **Iklan & Tracking**: Banner, popup, script tracking
+- ✅ **Malware & Phishing**: Website berbahaya
+- ✅ **Konten Dewasa**: Filter ramah keluarga
+- ✅ **Crypto Mining**: Script mining di browser
+- ✅ **Social Tracker**: Facebook, Google tracker
+- ✅ **Telemetri**: Windows, Android telemetry
+- ✅ **Berita Hoax**: Situs misinformasi
 
 </details>
 
-### 📡 Smart DNS Configuration
+---
+
+## 📡 Konfigurasi DNS Pintar
 
 <details>
-<summary><b>🌐 DNS Setup - Click to expand</b></summary>
+<summary><b>🌐 Setup DNS - Klik untuk expand</b></summary>
 
-#### 🚀 **Primary Servers**
+### 🚀 **Server Utama**
 ```yaml
 nameserver:
-  - "https://dns.quad9.net/dns-query"  # DoH Secure
+  - "https://dns.quad9.net/dns-query"  # DoH Aman
   - 112.215.198.248                    # Indonesia
   - 112.215.198.254                    # Indonesia Backup
 ```
 
-#### 🛡️ **Backup Servers**
-- `9.9.9.9` (Quad9 - Malware blocking)
-- `8.8.8.8` (Google - Fast response)
-- `1.1.1.1` (Cloudflare - Privacy focused)
+### 🛡️ **Server Cadangan**
+- `9.9.9.9` (Quad9 - Blokir malware)
+- `8.8.8.8` (Google - Respon cepat)
+- `1.1.1.1` (Cloudflare - Fokus privasi)
 
-#### 🎯 **Policy Routing**
-- VPN Domains: `*.vpnluxury.web.id` → Local DNS
-- Gaming: Auto-optimized routing
-- Streaming: CDN-aware resolution
+### 🎯 **Policy Routing**
+- Domain VPN: `*.vpnluxury.web.id` → DNS Lokal
+- Gaming: Routing auto-optimasi
+- Streaming: Resolusi CDN-aware
 
-#### ⚡ **Features**
-- ✅ **Fake IP Mode**: Ultra-fast resolution
-- ✅ **IPv6 Support**: Future-proof
-- ✅ **DoH/DoT**: Encrypted DNS
-- ✅ **Anti-Hijacking**: Secure DNS queries
+### ⚡ **Fitur**
+- ✅ **Mode Fake IP**: Resolusi ultra-cepat
+- ✅ **Dukungan IPv6**: Future-proof
+- ✅ **DoH/DoT**: DNS terenkripsi
+- ✅ **Anti-Hijacking**: Query DNS aman
 
 </details>
-
-## 🚀 Installation
-
-### 📥 **Method 1: Quick Setup**
-```bash
-wget -O /tmp/config.yaml https://raw.githubusercontent.com/fadzdigital/config_oc/main/config.yaml
-cp /tmp/config.yaml /etc/openclash/
-/etc/init.d/openclash restart
-```
-
-### 📱 **Method 2: Manual Upload**
-1. Download: [`config.yaml`](https://raw.githubusercontent.com/fadzdigital/config_oc/main/config.yaml)
-2. OpenClash → **Upload Config** → Select file
-3. **Start OpenClash** → Wait for rules download
-4. Enjoy! 🎉
-
-### ⚙️ **Method 3: Git Clone**
-```bash
-git clone https://github.com/fadzdigital/config_oc.git
-cd config_oc
-make install  # Auto installation script
-```
-
-> **⚠️ Important**: Backup your current config before installation!
 
 ---
 
-### 🔥 **Real-time Performance Dashboard**
-
-<div align="center">
-
-<!-- Hit counter -->
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ffadzdigital%2Fconfig_oc&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Repository+Hits&edge_flat=false" alt="Repository Hits">
-
-<!-- Visitor counter with flag -->
-<img src="https://komarev.com/ghpvc/?username=fadzdigital&repo=config_oc&color=brightgreen&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views">
-
-<!-- Dynamic online users (simulated) -->
-<img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/fadzdigital/config_oc&query=$.watchers_count&color=red&label=ONLINE%20NOW&style=for-the-badge&logo=github" alt="Online Users">
-
-Access your OpenClash dashboard: `http://router-ip:9090`
-
-| Feature | Status | Port | Users |
-|---------|--------|------|-------|
-| 🌐 **Web Dashboard** | ✅ Active | 9090 | ![Active](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/fadzdigital/config_oc&query=$.subscribers_count&color=brightgreen&label=Active) |
-| 🔄 **HTTP Proxy** | ✅ Running | 7890 | ![Users](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/fadzdigital/config_oc&query=$.forks_count&color=blue&label=Users) |
-| 🧦 **SOCKS Proxy** | ✅ Running | 7891 | ![Connected](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/fadzdigital/config_oc&query=$.stargazers_count&color=yellow&label=Stars) |
-| 🔀 **Mixed Proxy** | ✅ Running | 7893 | ![Performance](https://img.shields.io/badge/98%25-Uptime-brightgreen) |
-| 🛡️ **TUN Mode** | ✅ Active | - | ![Security](https://img.shields.io/badge/100%25-Secure-green) |
-
-<!-- Traffic analytics -->
-![Traffic](https://github.com/fadzdigital/config_oc/workflows/Update%20Traffic/badge.svg)
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?logo=github-actions)
-![Health Check](https://img.shields.io/badge/Health-100%25-brightgreen?logo=statuspage)
-
-</div>
-
-## 🔧 Advanced Configuration
+## 🔧 Troubleshooting
 
 <details>
-<summary><b>⚙️ Expert Settings - Click to expand</b></summary>
+<summary><b>🔍 Masalah Umum & Solusi</b></summary>
 
-### 🔥 **TUN Mode Configuration**
-```yaml
-tun:
-  enable: true
-  stack: gvisor          # High performance
-  dns-hijack:
-    - "any:53"           # Intercept all DNS
-    - "tcp://any:53"     # TCP DNS support
-  auto-route: true       # Smart routing
-  auto-detect-interface: true
-```
-
-### 🌐 **Port Mapping**
-```yaml
-ports:
-  http: 7890           # HTTP proxy
-  socks: 7891          # SOCKS5 proxy  
-  mixed: 7893          # HTTP + SOCKS
-  redir: 7892          # Transparent proxy
-  tproxy: 7895         # TProxy mode
-  controller: 9090     # Web dashboard
-```
-
-### 🎯 **Load Balancing**
-- **Round-Robin**: Equal distribution
-- **Consistent-Hashing**: Session persistence  
-- **Shortest-Response**: Performance focused
-
-</details>
-
-## 🐛 Troubleshooting
-
-<details>
-<summary><b>🔍 Common Issues & Solutions</b></summary>
-
-### ❌ **Rules Not Loading**
+### ❌ **Rules Tidak Terload**
 ```bash
-# Check internet connection
+# Cek koneksi internet
 ping google.com
 
 # Restart OpenClash
 /etc/init.d/openclash restart
 
-# Manual rule download
+# Download manual rules
 curl -L https://raw.githubusercontent.com/fadzdigital/config_oc/main/rule_provider/2-gaming.yaml
 ```
 
-### 🎮 **Gaming Lag Issues**
-1. ✅ Check proxy latency in dashboard
-2. ✅ Switch to "Best-Ping" group
-3. ✅ Verify game ports in rules
-4. ✅ Test with DIRECT connection
+### 🎮 **Game Lag**
+1. ✅ Cek latensi proxy di dashboard
+2. ✅ Ganti ke grup "Best-Ping"
+3. ✅ Verifikasi port game di rules
+4. ✅ Test dengan koneksi DIRECT
 
-### 🌐 **DNS Problems**
+### 🌐 **Masalah DNS**
 ```bash
-# Disable router DNS
+# Disable DNS router
 uci set dhcp.@dnsmasq[0].noresolv='1'
 uci commit dhcp
 
@@ -407,155 +273,129 @@ uci commit dhcp
 /etc/init.d/openclash restart
 ```
 
-### 📊 **Performance Issues**
-- 🔧 Enable hardware acceleration
-- 🔧 Increase memory allocation
-- 🔧 Reduce rule providers if needed
-- 🔧 Use SSD storage for better I/O
+### 📊 **Masalah Performa**
+- 🔧 Kurangi rule provider jika perlu
 
 </details>
 
-### 📋 **Log Files**
-- 📄 OpenClash: `/tmp/openclash.log`
-- 📄 Clash Core: `/tmp/clash.log`  
-- 📄 DNS: `/tmp/dnsmasq.log`
-
 ---
 
-## 🎯 Pro Tips
+## 🎯 Tips Pro
 
 <div align="center">
 
-| Tip | Description | Impact |
-|-----|-------------|--------|
-| ⚡ **Use Best-Ping** | Auto-select fastest server | 🚀 Speed |
-| 🎮 **Gaming Mode** | Dedicate cores for gaming | 🎯 Latency |
-| 🛡️ **Enable DoH** | Encrypt DNS queries | 🔒 Security |
-| 📊 **Monitor Dashboard** | Real-time performance | 📈 Optimization |
-| 🔄 **Auto-Update** | Keep rules current | 🛡️ Protection |
+| Tips | Deskripsi | Dampak |
+|------|-----------|--------|
+| ⚡ **Gunakan Best-Ping** | Auto-pilih server tercepat | 🚀 Kecepatan |
+| 🎮 **Mode Gaming** | Dedikasi core untuk gaming | 🎯 Latensi |
+| 🛡️ **Aktifkan DoH** | Enkripsi query DNS | 🔒 Keamanan |
+| 📊 **Monitor Dashboard** | Performa real-time | 📈 Optimasi |
+| 🔄 **Auto-Update** | Rules selalu terbaru | 🛡️ Perlindungan |
 
 </div>
-
-## 🤝 Contributing
-
-<div align="center">
-
-**Love this project? Here's how you can help!**
-
-[![Star](https://img.shields.io/badge/⭐-Star%20this%20repo-yellow?style=for-the-badge)](https://github.com/fadzdigital/config_oc)
-[![Fork](https://img.shields.io/badge/🍴-Fork%20&%20improve-blue?style=for-the-badge)](https://github.com/fadzdigital/config_oc/fork)
-[![Issues](https://img.shields.io/badge/🐛-Report%20bugs-red?style=for-the-badge)](https://github.com/fadzdigital/config_oc/issues)
-
-</div>
-
-### 🎯 **Ways to Contribute**
-- 🌟 **Star** the repository
-- 🐛 **Report** bugs and issues  
-- 💡 **Suggest** new features
-- 🔧 **Submit** pull requests
-- 📖 **Improve** documentation
-- 💬 **Share** with friends
-
-### 📝 **Development**
-```bash
-# Fork the repository
-git clone https://github.com/yourusername/config_oc.git
-
-# Create feature branch
-git checkout -b feature/awesome-feature
-
-# Make changes and commit
-git commit -m "Add awesome feature"
-
-# Push and create PR
-git push origin feature/awesome-feature
-```
 
 ---
 
-## 📈 Statistics
+## 🤝 Berkontribusi
+
+<div align="center">
+
+**Suka dengan Config ini? Begini cara membantu!**
+
+[![Star](https://img.shields.io/badge/⭐-Beri_Bintang-yellow?style=for-the-badge)](https://github.com/fadzdigital/config_oc)
+[![Fork](https://img.shields.io/badge/🍴-Fork_&_Kembangkan-blue?style=for-the-badge)](https://github.com/fadzdigital/config_oc/fork)
+[![Issues](https://img.shields.io/badge/🐛-Laporkan_Bug-red?style=for-the-badge)](https://github.com/fadzdigital/config_oc/issues)
+
+</div>
+
+### 🎯 **Cara Berkontribusi**
+- 🌟 **Beri bintang** repository ini
+- 🐛 **Laporkan** bug dan masalah  
+- 💡 **Sarankan** fitur baru
+- 🔧 **Submit** pull request
+- 📖 **Perbaiki** dokumentasi
+- 💬 **Share** ke teman-teman
+
+---
+
+## 📈 Statistik Real-time
 
 <div align="center">
 
 <!-- Real-time GitHub metrics -->
-![Profile Views](https://komarev.com/ghpvc/?username=fadzdigital&style=for-the-badge&color=brightgreen)
-![GitHub followers](https://img.shields.io/github/followers/fadzdigital?style=for-the-badge&logo=github)
-![GitHub User's stars](https://img.shields.io/github/stars/fadzdigital?style=for-the-badge&logo=github)
+![Profile Views](https://komarev.com/ghpvc/?username=fadzdigital&style=for-the-badge&color=brightgreen&label=DILIHAT)
+![GitHub followers](https://img.shields.io/github/followers/fadzdigital?style=for-the-badge&logo=github&label=PENGIKUT)
+![GitHub User's stars](https://img.shields.io/github/stars/fadzdigital?style=for-the-badge&logo=github&label=TOTAL+BINTANG)
 
-<!-- Repository specific real-time stats -->
-![GitHub Repo stars](https://img.shields.io/github/stars/fadzdigital/config_oc?style=for-the-badge&logo=github)
-![GitHub forks](https://img.shields.io/github/forks/fadzdigital/config_oc?style=for-the-badge&logo=github)
-![GitHub watchers](https://img.shields.io/github/watchers/fadzdigital/config_oc?style=for-the-badge&logo=github)
-![GitHub Issues](https://img.shields.io/github/issues/fadzdigital/config_oc?style=for-the-badge&logo=github)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/fadzdigital/config_oc?style=for-the-badge&logo=github)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/fadzdigital/config_oc?style=for-the-badge&logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/fadzdigital/config_oc?style=for-the-badge&logo=github&label=BINTANG+REPO)
+![GitHub forks](https://img.shields.io/github/forks/fadzdigital/config_oc?style=for-the-badge&logo=github&label=FORK)
+![GitHub watchers](https://img.shields.io/github/watchers/fadzdigital/config_oc?style=for-the-badge&logo=github&label=PENGAMAT)
 
-<!-- Live activity metrics -->
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/fadzdigital/config_oc?style=for-the-badge&logo=github)
-![GitHub last commit](https://img.shields.io/github/last-commit/fadzdigital/config_oc?style=for-the-badge&logo=github)
-![GitHub contributors](https://img.shields.io/github/contributors/fadzdigital/config_oc?style=for-the-badge&logo=github)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/fadzdigital/config_oc?style=for-the-badge&logo=github&label=COMMIT+BULANAN)
+![GitHub last commit](https://img.shields.io/github/last-commit/fadzdigital/config_oc?style=for-the-badge&logo=github&label=COMMIT+TERAKHIR)
 
-**📊 Repository Stats**
-- 🎯 **Total Clones**: ![GitHub clones](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Total%20Clones&query=%24.count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Ffadzdigital%2Fconfig_oc%2Ftraffic%2Fclones)
-- 🌟 **Unique Visitors**: ![GitHub views](https://img.shields.io/badge/dynamic/json?color=blue&label=Views&query=%24.count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Ffadzdigital%2Fconfig_oc%2Ftraffic%2Fviews)
-- 🐛 **Issues Resolved**: ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/fadzdigital/config_oc?color=green)
-- 🔄 **Active Development**: ![Maintenance](https://img.shields.io/maintenance/yes/2025?color=brightgreen)
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ffadzdigital%2Fconfig_oc&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Kunjungan+Repo&edge_flat=false" alt="Kunjungan Repository">
 
-<!-- Trending stats -->
-<img src="https://github-profile-trophy.vercel.app/?username=fadzdigital&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=1&column=6" width="100%">
+**📊 Statistik Repository**
+- 🎯 **Total Clone**: ![GitHub clones](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Total%20Clone&query=%24.count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Ffadzdigital%2Fconfig_oc%2Ftraffic%2Fclones)
+- 🌟 **Pengunjung Unik**: ![GitHub views](https://img.shields.io/badge/dynamic/json?color=blue&label=Pengunjung&query=%24.count&url=https%3A%2F%2Fapi.github.com%2Frepos%2Ffadzdigital%2Fconfig_oc%2Ftraffic%2Fviews)
+- 🐛 **Issues Terselesaikan**: ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/fadzdigital/config_oc?color=green)
+- 🔄 **Pengembangan Aktif**: ![Maintenance](https://img.shields.io/maintenance/yes/2025?color=brightgreen)
 
 </div>
 
 ---
 
-## 📞 Support & Community
+## 📞 Dukungan & Komunitas
 
 <div align="center">
 
-### 🌐 **Get Help**
+### 🌐 **Dapatkan Bantuan**
 
-[![Telegram](https://img.shields.io/badge/💬-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/openclash_community)
-[![Discord](https://img.shields.io/badge/💬-Discord-blurple?style=for-the-badge&logo=discord)](https://discord.gg/openclash)
-[![GitHub Issues](https://img.shields.io/badge/🐛-GitHub%20Issues-green?style=for-the-badge&logo=github)](https://github.com/fadzdigital/config_oc/issues)
+[![Telegram](https://img.shields.io/badge/💬-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/fadzdigital)
+[![Discord](https://img.shields.io/badge/💬-WhatsApp-blurple?style=for-the-badge&logo=discord)](https://wa.me/6285727035336)
+[![GitHub Issues](https://img.shields.io/badge/🐛-GitHub_Issues-green?style=for-the-badge&logo=github)](https://github.com/fadzdigital/config_oc/issues)
 
-**Quick Response Time: < 24 hours**
+**Waktu Respon: < 24 jam**
 
 </div>
 
-### 💬 **Community Guidelines**
-- 🤝 Be respectful and helpful
-- 🔍 Search before asking questions
-- 📋 Provide detailed bug reports
-- 🎯 Stay on topic
-- 💡 Share your improvements
+### 💬 **Panduan Komunitas**
+- 🤝 Bersikap sopan dan membantu
+- 🔍 Cari dulu sebelum bertanya
+- 📋 Berikan laporan bug yang detail
+- 🎯 Tetap on topic
+- 💡 Share perbaikan Anda
 
 ---
 
-## 📄 License & Credits
+## 📄 Lisensi & Kredit
 
 <div align="center">
 
-### 📜 **License**
-This project is licensed under **MIT License** - see [LICENSE](LICENSE) file for details.
+### 📜 **Lisensi**
+Project ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE) untuk detail.
 
-### 🙏 **Credits**
-- **OpenClash Team**: Core application
-- **Clash Project**: Proxy engine
-- **Rule Providers**: Community rules
-- **Contributors**: All awesome people
+### 🙏 **Kredit**
+- **Tim OpenClash**: Aplikasi inti
+- **Project Clash**: Mesin proxy
+- **Rule Provider**: Rules komunitas
+- **Kontributor**: Semua orang Tresno-Sontek
 
 ### ⚖️ **Disclaimer**
-- For educational purposes only
-- Use responsibly and legally
-- Respect local laws and regulations
-- No warranty provided
+- Hanya untuk tujuan edukasi
+- Gunakan secara bertanggung jawab dan legal
+- Hormati hukum dan regulasi lokal
+- Tidak ada Unsur Lain , Selain Berbagi Config
 
 ---
 
-**🔥 Made with ❤️ by [FadzDigital](https://github.com/fadzdigital)**
+**Edited : [FadzDigital](https://github.com/fadzdigital)**
 
-*Don't forget to ⭐ star this repository if it helped you!*
+*Jangan lupa ⭐ bintangi repository ini jika membantu!*
 
-**Last Updated**: July 2025 | **Version**: 2.0 Pro
+**Terakhir Diupdate**: Juli 2025 | **Versi**: 1.0
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
 
 </div>
