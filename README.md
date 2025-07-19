@@ -1,27 +1,22 @@
-<!-- Header dengan animasi -->
 <div align="center">
-  
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=OpenClash%20Pro&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Konfigurasi%20Proxy%20Profesional%20•%20Optimasi%20Gaming%20•%20Performa%20Ultra&descAlignY=51&descAlign=50"/>
 
-<!-- Badges dengan efek visual -->
 <p align="center">
-  <img src="https://img.shields.io/badge/⚡_OpenClash-Konfigurasi_Pro-FF6B6B?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"/>
-  <img src="https://img.shields.io/badge/🎮_Gaming-Teroptimasi-4ECDC4?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🛡️_Keamanan-Tingkat_Tinggi-45B7D1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/⚡_Performa-Super_Cepat-FFA07A?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/⚡_Config-OpenClash-FF6B6B?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"/>
+  <img src="https://img.shields.io/badge/🎮_Gaming-Optimasi-4ECDC4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🛡️_Security-One-45B7D1?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/💣_Performa-Up-FFA07A?style=for-the-badge"/>
 </p>
 
-<!-- Visitor counter dengan style khusus -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=fadzdigital&repo=config_oc&color=blueviolet&style=for-the-badge&label=PENGGUNA+AKTIF"/>
+  <img src="https://komarev.com/ghpvc/?username=fadzdigital&repo=config_oc&color=blueviolet&style=for-the-badge&label=Kunjungan+Industri"/>
   <img src="https://img.shields.io/github/stars/fadzdigital/config_oc?style=for-the-badge&logo=github&color=yellow&logoColor=white&label=BINTANG"/>
   <img src="https://img.shields.io/github/forks/fadzdigital/config_oc?style=for-the-badge&logo=github&color=orange&logoColor=white&label=FORK"/>
 </p>
 
-<!-- Quick action buttons -->
 <p align="center">
   <a href="#-setup-instan">
-    <img src="https://img.shields.io/badge/🚀_SETUP_INSTAN-Klik_Disini-success?style=for-the-badge&logo=rocket"/>
+    <img src="https://img.shields.io/badge/SETUP_INSTAN-Klik_Disini-success?style=for-the-badge&logo=rocket"/>
   </a>
   <a href="#-mode-gaming">
     <img src="https://img.shields.io/badge/🎮_MODE_GAMING-Aktifkan-critical?style=for-the-badge&logo=gamepad"/>
@@ -35,14 +30,14 @@
 
 ---
 
-## 🔥 Fitur Unggulan
+## 🔥 Apa Saja Yang Didapat?
 
-### ⚡ **Performa Kilat**
+### ⚡ **Performa Up**
 ```yaml
 ⭐ 78,000+ Aturan Blokir Iklan
 🎯 15+ Optimasi Game  
-🚀 Latensi Dibawah 20ms
-🛡️ Keamanan Tingkat Militer
+🚀 Mengkategorikan Sesuka Hati
+🛡️ Security Mode
 📊 Analitik Real-time
 🌍 Dukungan CDN Global
 ```
@@ -59,7 +54,7 @@
 - **Proteksi DNS**: Blokir malware
 - **Pembasmi Iklan**: Filter 7 lapis
 - **Penjaga Privasi**: Zero logging
-- **Keluarga Aman**: Filter konten dewasa
+- **Keluarga Aman**: Filter konten dewasa (
 
 ## 📊 Dashboard Live
 
@@ -84,17 +79,17 @@
 ### 📱 **Metode Cepat (Copy-Paste)**
 ```bash
 # Download langsung ke router
-wget -O /tmp/config.yaml https://raw.githubusercontent.com/fadzdigital/config_oc/main/config.yaml
+wget -O /tmp/mikkucok.yaml https://raw.githubusercontent.com/fadzdigital/config_oc/main/mikkucok.yaml
 
 # Copy ke folder OpenClash
-cp /tmp/config.yaml /etc/openclash/
+cp /tmp/mikkucok.yaml /etc/openclash/
 
 # Restart OpenClash
 /etc/init.d/openclash restart
 ```
 
 ### 🌐 **Upload Manual (Pemula)**
-1. 📥 **Download**: [`config.yaml`](https://raw.githubusercontent.com/fadzdigital/config_oc/main/config.yaml)
+1. 📥 **Download**: [`mikkucok.yaml`](https://raw.githubusercontent.com/fadzdigital/config_oc/main/mikkucok.yaml)
 2. 🌐 **Buka OpenClash** → **Upload Config** → Pilih file
 3. ▶️ **Start OpenClash** → Tunggu download rules
 4. 🎉 **Selesai!** Nikmati internet super cepat
@@ -371,11 +366,11 @@ Project ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE
 
 ---
 
-**🔥 Dibuat dengan ❤️ oleh [FadzDigital](https://github.com/fadzdigital)**
+**🔥 Edited by [FadzDigital](https://github.com/fadzdigital)**
 
 *Jangan lupa ⭐ bintangi repository ini jika membantu!*
 
-**Terakhir Diupdate**: Juli 2025 | **Versi**: 2.0 Pro
+**Terakhir Diupdate**: Juli 2025 | **Versi**: 1.0
 
 <!-- Footer dengan animasi -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
